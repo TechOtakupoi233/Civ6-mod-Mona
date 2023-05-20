@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="LEADER_MONA" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_GREAT_ASTROLOGIST" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_DISTRICT_ASTRONOMICAL_OBSERVATORIES" Kind="KIND_TRAIT"/>
+	</Types>
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_IESS" LeaderType="LEADER_MONA" CapitalName="LOC_CITY_NAME_IESS_1"/>
+	</CivilizationLeaders>
+	<Leaders>
+		<Row LeaderType="LEADER_MONA" Name="LOC_LEADER_MONA_NAME" Sex="Female"/>
+	</Leaders>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_MONA" Quote="LOC_LEADER_MONA_QUOTE" QuoteAudio="MONA_MISC_PEP_TALK_A"/>
+	</LeaderQuotes>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_MONA" TraitType="TRAIT_GREAT_ASTROLOGIST"/>
+		<Row LeaderType="LEADER_MONA" TraitType="TRAIT_DISTRICT_ASTRONOMICAL_OBSERVATORIES"/>
+	</LeaderTraits>
+	<Traits>
+		<Row TraitType="TRAIT_GREAT_ASTROLOGIST" Name="LOC_TRAIT_GREAT_ASTROLOGIST_NAME" Description="LOC_TRAIT_GREAT_ASTROLOGIST_DESCRIPTION"/>
+		<Row TraitType="TRAIT_DISTRICT_ASTRONOMICAL_OBSERVATORIES"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_GREAT_ASTROLOGIST" ModifierId="MOD_MONA_FREE_TECH_ASTROLOGY"/>
+		<Row TraitType="TRAIT_GREAT_ASTROLOGIST" ModifierId="MOD_MONA_FREE_TECH_CELESTIAL_NAVIGATION"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row ModifierId="MOD_MONA_FREE_TECH_ASTROLOGY" ModifierType="MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY"/>
+		<Row ModifierId="MOD_MONA_FREE_TECH_CELESTIAL_NAVIGATION" ModifierType="MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY"/>
+	</Modifiers>
+	<ModifierArguments>
+		<Row ModifierId="MOD_MONA_FREE_TECH_ASTROLOGY" Name="TechType" Value="TECH_ASTROLOGY"/>
+		<Row ModifierId="MOD_MONA_FREE_TECH_CELESTIAL_NAVIGATION" Name="TechType" Value="TECH_CELESTIAL_NAVIGATION"/>
+	</ModifierArguments>
+</GameData>

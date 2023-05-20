@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="MonaUI"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="ICON_LEADER_MONA_256"/>
+			<m_ObjectName text="ICON_LEADER_MONA_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_MONA_32"/>
+			<m_ObjectName text="ICON_LEADER_MONA_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_MONA_45"/>
+			<m_ObjectName text="ICON_LEADER_MONA_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_MONA_48"/>
+			<m_ObjectName text="ICON_LEADER_MONA_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_MONA_50"/>
+			<m_ObjectName text="ICON_LEADER_MONA_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_MONA_55"/>
+			<m_ObjectName text="ICON_LEADER_MONA_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_MONA_64"/>
+			<m_ObjectName text="ICON_LEADER_MONA_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_MONA_80"/>
+			<m_ObjectName text="ICON_LEADER_MONA_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_MONA_NEUTRAL"/>
+			<m_ObjectName text="LEADER_MONA_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_MONA_THIN"/>
+			<m_ObjectName text="LEADER_MONA_THIN"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_IESS_128"/>
+			<m_ObjectName text="ICON_CIVILIZATION_IESS_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_IESS_22"/>
+			<m_ObjectName text="ICON_CIVILIZATION_IESS_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_IESS_256"/>
+			<m_ObjectName text="ICON_CIVILIZATION_IESS_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_IESS_30"/>
+			<m_ObjectName text="ICON_CIVILIZATION_IESS_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_IESS_32"/>
+			<m_ObjectName text="ICON_CIVILIZATION_IESS_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_IESS_36"/>
+			<m_ObjectName text="ICON_CIVILIZATION_IESS_36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_IESS_44"/>
+			<m_ObjectName text="ICON_CIVILIZATION_IESS_44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_IESS_45"/>
+			<m_ObjectName text="ICON_CIVILIZATION_IESS_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_IESS_48"/>
+			<m_ObjectName text="ICON_CIVILIZATION_IESS_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_IESS_50"/>
+			<m_ObjectName text="ICON_CIVILIZATION_IESS_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_IESS_64"/>
+			<m_ObjectName text="ICON_CIVILIZATION_IESS_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_IESS_80"/>
+			<m_ObjectName text="ICON_CIVILIZATION_IESS_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_RADIO_TELESCOPE_128"/>
+			<m_ObjectName text="ICON_BUILDING_RADIO_TELESCOPE_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_RADIO_TELESCOPE_256"/>
+			<m_ObjectName text="ICON_BUILDING_RADIO_TELESCOPE_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_RADIO_TELESCOPE_32"/>
+			<m_ObjectName text="ICON_BUILDING_RADIO_TELESCOPE_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_RADIO_TELESCOPE_38"/>
+			<m_ObjectName text="ICON_BUILDING_RADIO_TELESCOPE_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_RADIO_TELESCOPE_50"/>
+			<m_ObjectName text="ICON_BUILDING_RADIO_TELESCOPE_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_RADIO_TELESCOPE_80"/>
+			<m_ObjectName text="ICON_BUILDING_RADIO_TELESCOPE_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_DISTRICT_ASTRONOMICAL_OBSERVATORIES_128"/>
+			<m_ObjectName text="ICON_DISTRICT_ASTRONOMICAL_OBSERVATORIES_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_DISTRICT_ASTRONOMICAL_OBSERVATORIES_22"/>
+			<m_ObjectName text="ICON_DISTRICT_ASTRONOMICAL_OBSERVATORIES_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_DISTRICT_ASTRONOMICAL_OBSERVATORIES_256"/>
+			<m_ObjectName text="ICON_DISTRICT_ASTRONOMICAL_OBSERVATORIES_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_DISTRICT_ASTRONOMICAL_OBSERVATORIES_32"/>
+			<m_ObjectName text="ICON_DISTRICT_ASTRONOMICAL_OBSERVATORIES_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_DISTRICT_ASTRONOMICAL_OBSERVATORIES_38"/>
+			<m_ObjectName text="ICON_DISTRICT_ASTRONOMICAL_OBSERVATORIES_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_DISTRICT_ASTRONOMICAL_OBSERVATORIES_50"/>
+			<m_ObjectName text="ICON_DISTRICT_ASTRONOMICAL_OBSERVATORIES_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_DISTRICT_ASTRONOMICAL_OBSERVATORIES_80"/>
+			<m_ObjectName text="ICON_DISTRICT_ASTRONOMICAL_OBSERVATORIES_80"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_MONA</Type>
+			<Usage>Unique</Usage>
+			<Alt2PrimaryColor>COLOR_MONA_GREY</Alt2PrimaryColor>
+			<Alt2SecondaryColor>COLOR_STANDARD_WHITE_LT</Alt2SecondaryColor>
+			<PrimaryColor>COLOR_MONA_BLUE</PrimaryColor>
+			<SecondaryColor>COLOR_STANDARD_WHITE_LT</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_MONA_PURPLE</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_STANDARD_WHITE_LT</Alt1SecondaryColor>
+		</Row>
+	</PlayerColors>
+	<Colors>
+        <Row Type="COLOR_MONA_GREY" COLOR="83,73,92,255"/>
+		<Row Type="COLOR_MONA_BLUE" COLOR="105,116,190,255"/>
+		<Row Type="COLOR_MONA_PURPLE" COLOR="78,69,85,255"/>
+	</Colors>
+</GameData>

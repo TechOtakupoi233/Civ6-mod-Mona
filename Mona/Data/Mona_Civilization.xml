@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="CIVILIZATION_IESS" Kind="KIND_CIVILIZATION"/>
+		<Row Type="TRAIT_GENIUS_LIFE" Kind="KIND_TRAIT"/>
+	</Types>
+	<Civilizations>
+		<Row>
+			<CivilizationType>CIVILIZATION_IESS</CivilizationType>
+			<Name>LOC_CIVILIZATION_IESS_NAME</Name>
+			<Description>LOC_CIVILIZATION_IESS_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_IESS_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<RandomCityNameDepth>10</RandomCityNameDepth>
+			<Ethnicity>ETHNICITY_EUROPEAN</Ethnicity>
+		</Row>
+	</Civilizations>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_IESS" TraitType="TRAIT_GENIUS_LIFE"/>
+	</CivilizationTraits>
+	<Traits>
+		<Row TraitType="TRAIT_GENIUS_LIFE" Name="LOC_TRAIT_GENIUS_LIFE_NAME" Description="LOC_TRAIT_GENIUS_LIFE_DESCRIPTION"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_GENIUS_LIFE" ModifierId="MOD_TRAIT_GENIUS_LIFE_LESS_GROWTH"/>
+		<Row TraitType="TRAIT_GENIUS_LIFE" ModifierId="MOD_TRAIT_GENIUS_LIFE_MORE_CULTURE"/>
+		<Row TraitType="TRAIT_GENIUS_LIFE" ModifierId="MOD_TRAIT_GENIUS_LIFE_MORE_LOYALTY"/>
+		<!-- Amenities in Mona_Civilization_Modifiers.sql -->
+	</TraitModifiers>
+	<Modifiers>
+		<Row ModifierId="MOD_TRAIT_GENIUS_LIFE_LESS_GROWTH" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_GROWTH"/>
+		<Row ModifierId="MOD_TRAIT_GENIUS_LIFE_MORE_TECHNOLOGY" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION"/>
+		<Row ModifierId="MOD_TRAIT_GENIUS_LIFE_MORE_CULTURE" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION"/>
+		<Row ModifierId="MOD_TRAIT_GENIUS_LIFE_MORE_LOYALTY" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_IDENTITY_PER_CITIZEN"/>
+	</Modifiers>
+	<ModifierArguments>
+		<Row ModifierId="MOD_TRAIT_GENIUS_LIFE_LESS_GROWTH" Name="Amount" Value="-30"/>
+		<Row ModifierId="MOD_TRAIT_GENIUS_LIFE_MORE_TECHNOLOGY" Name="YieldType" Value="YIELD_TECHNOLOGY"/>
+		<Row ModifierId="MOD_TRAIT_GENIUS_LIFE_MORE_TECHNOLOGY" Name="Amount" Value="1"/>
+		<Row ModifierId="MOD_TRAIT_GENIUS_LIFE_MORE_CULTURE" Name="YieldType" Value="YIELD_CULTURE"/>
+		<Row ModifierId="MOD_TRAIT_GENIUS_LIFE_MORE_CULTURE" Name="Amount" Value="1"/>
+		<Row ModifierId="MOD_TRAIT_GENIUS_LIFE_MORE_LOYALTY" Name="Amount" Value="1"/>
+	</ModifierArguments>
+	
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_FEMALE_10" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IESS" CitizenName="LOC_CITIZEN_IESS_MODERN_FEMALE_10" Female="true" Modern="true"/>
+	</CivilizationCitizenNames>
+	<CityNames>
+		<InsertOrIgnore CivilizationType="CIVILIZATION_IESS" CityName="LOC_CITY_NAME_LIYUE" />
+		<InsertOrIgnore CivilizationType="CIVILIZATION_IESS" CityName="LOC_CITY_NAME_DIHUA_MARSH" />
+		<InsertOrIgnore CivilizationType="CIVILIZATION_IESS" CityName="LOC_CITY_NAME_JUEYUN_KARST" />
+		<InsertOrIgnore CivilizationType="CIVILIZATION_IESS" CityName="LOC_CITY_NAME_STONE_GATE" />
+		<InsertOrIgnore CivilizationType="CIVILIZATION_IESS" CityName="LOC_CITY_NAME_QINGCE" />
+		<InsertOrIgnore CivilizationType="CIVILIZATION_IESS" CityName="LOC_CITY_NAME_GUILI_PLAINS" />
+		<InsertOrIgnore CivilizationType="CIVILIZATION_IESS" CityName="LOC_CITY_NAME_YUJING_TERRACE" />
+		<InsertOrIgnore CivilizationType="CIVILIZATION_IESS" CityName="LOC_CITY_NAME_FEIYUN_SLOPE" />
+		<InsertOrIgnore CivilizationType="CIVILIZATION_IESS" CityName="LOC_CITY_NAME_CHIHU_ROCK" />
+		<InsertOrIgnore CivilizationType="CIVILIZATION_IESS" CityName="LOC_CITY_NAME_MINGYUN" />
+		<InsertOrIgnore CivilizationType="CIVILIZATION_IESS" CityName="LOC_CITY_NAME_GUYUN_STONE_FOREST" />
+		<InsertOrIgnore CivilizationType="CIVILIZATION_IESS" CityName="LOC_CITY_NAME_LINGJU_PASS" />
+		<InsertOrIgnore CivilizationType="CIVILIZATION_IESS" CityName="LOC_CITY_NAME_NANTIANMEN" />
+		<InsertOrIgnore CivilizationType="CIVILIZATION_IESS" CityName="LOC_CITY_NAME_HUAGUANG_STONE_FOREST" />
+		<InsertOrIgnore CivilizationType="CIVILIZATION_IESS" CityName="LOC_CITY_NAME_SAL_TERRAE" />
+		<InsertOrIgnore CivilizationType="CIVILIZATION_IESS" CityName="LOC_CITY_NAME_DUNYU_RUINS" />
+		<InsertOrIgnore CivilizationType="CIVILIZATION_IESS" CityName="LOC_CITY_NAME_WUWANG_HILL" />
+		<InsertOrIgnore CivilizationType="CIVILIZATION_IESS" CityName="LOC_CITY_NAME_TIANGONG_GORGE" />
+		<InsertOrIgnore CivilizationType="CIVILIZATION_IESS" CityName="LOC_CITY_NAME_CUIJUE_SLOPE" />
+		<InsertOrIgnore CivilizationType="CIVILIZATION_IESS" CityName="LOC_CITY_NAME_TIANQIU_VALLEY" />
+		<InsertOrIgnore CivilizationType="CIVILIZATION_IESS" CityName="LOC_CITY_NAME_YAOGUANG_SHOAL" />
+		<InsertOrIgnore CivilizationType="CIVILIZATION_IESS" CityName="LOC_CITY_NAME_FUAO_VALE" />
+		<InsertOrIgnore CivilizationType="CIVILIZATION_IESS" CityName="LOC_CITY_NAME_CINNABAR_CLIFF" />
+		<InsertOrIgnore CivilizationType="CIVILIZATION_IESS" CityName="LOC_CITY_NAME_GLAZE_PEAK" />
+		<InsertOrIgnore CivilizationType="CIVILIZATION_IESS" CityName="LOC_CITY_NAME_LUMBERPICK_VALLEY" />
+		<InsertOrIgnore CivilizationType="CIVILIZATION_IESS" CityName="LOC_CITY_NAME_QIONGJI_ESTUARY" />
+		<InsertOrIgnore CivilizationType="CIVILIZATION_IESS" CityName="LOC_CITY_NAME_MINLIN" />
+		<InsertOrIgnore CivilizationType="CIVILIZATION_IESS" CityName="LOC_CITY_NAME_LISHA" />
+		<InsertOrIgnore CivilizationType="CIVILIZATION_IESS" CityName="LOC_CITY_NAME_CHENYU_VALE" />
+		<InsertOrIgnore CivilizationType="CIVILIZATION_IESS" CityName="LOC_CITY_NAME_QIAOYING" />
+	</CityNames>
+</GameData>

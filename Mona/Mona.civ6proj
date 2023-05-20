@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>LOC_MOD_MONA_NAME</Name>
+    <Guid>4d793276-aa1d-424c-aa8b-d92b5a02d279</Guid>
+    <ProjectGuid>e52ed1de-2484-4edb-95d4-5fd014d241b7</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>LOC_MOD_MONA_DESCRIPTION</Teaser>
+    <Description>LOC_MOD_MONA_DESCRIPTION</Description>
+    <Authors>Kashirona</Authors>
+    <SpecialThanks>Dwughjsd, hemmelfort</SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssemblyName>Mona</AssemblyName>
+    <RootNamespace>Mona</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="MonaConfig"><File>Data/Mona_Config.xml</File></UpdateDatabase><UpdateIcons id="MonaIcons"><File>Data/Mona_Icons.sql</File></UpdateIcons><UpdateText id="MonaCoreText"><File>Text/Mona_CoreText.xml</File></UpdateText><UpdateColors id="MonaColors"><File>Data/Mona_Colors.xml</File></UpdateColors><UpdateArt id="MonaArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="MonaData"><File>Data/Mona_Leader.xml</File><File>Data/Mona_Civilization.xml</File><File>Data/Mona_Civilization_Modifiers.sql</File><File>Data/Mona_Astronomical_Station.xml</File></UpdateDatabase><AddGameplayScripts id="MonaLua"><File>Data/Mona_TradeScience.lua</File><File>Data/Mona_InitialVision.lua</File></AddGameplayScripts><UpdateColors id="MonaColors"><File>Data/Mona_Colors.xml</File></UpdateColors><UpdateIcons id="MonaIcons"><File>Data/Mona_Icons.sql</File></UpdateIcons><UpdateText id="MonaText"><File>Text/Mona_CoreText.xml</File></UpdateText><UpdateArt id="MonaArt"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="LOC_EXPANSION2_MOD_TITLE" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+</Associations>]]></AssociationData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Mona.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data" />
+    <Folder Include="Text\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\Mona_Astronomical_Station.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Mona_Civilization.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Mona_Civilization_Modifiers.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Mona_Colors.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Mona_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Mona_Icons.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Mona_InitialVision.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Mona_Leader.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Mona_TradeScience.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\Mona_CoreText.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

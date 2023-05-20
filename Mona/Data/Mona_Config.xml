@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Players>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_IESS</CivilizationType>
+			<LeaderType>LEADER_MONA</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_IESS_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_IESS</CivilizationIcon>
+			<LeaderName>LOC_LEADER_MONA_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_MONA</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_GENIUS_LIFE_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_GENIUS_LIFE_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_IESS</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_GREAT_ASTROLOGIST_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_GREAT_ASTROLOGIST_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_MONA</LeaderAbilityIcon>
+			<Portrait>LEADER_MONA_THIN</Portrait>
+			<PortraitBackground>LEADER_MONA_BACKGROUND</PortraitBackground>
+		</Row>
+	</Players>
+	<PlayerItems>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_IESS</CivilizationType>
+			<LeaderType>LEADER_MONA</LeaderType>
+			<Type>DISTRICT_ASTRONOMICAL_OBSERVATORIES</Type>
+			<Name>LOC_DISTRICT_ASTRONOMICAL_OBSERVATORIES_NAME</Name>
+			<Description>LOC_DISTRICT_ASTRONOMICAL_OBSERVATORIES_DESCRIPTION</Description>
+			<Icon>ICON_DISTRICT_ASTRONOMICAL_OBSERVATORIES</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+	</PlayerItems>
+</GameData>
