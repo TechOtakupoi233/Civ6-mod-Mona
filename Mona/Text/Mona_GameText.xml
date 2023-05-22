@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <EnglishText>
+        <Row Tag="LOC_CITY_NAME_IESS_1" Text="IESS HQ"/>
+        <Row Tag="LOC_BRANCH" Text="Branch"/>
+    </EnglishText>
+    <LocalizedText>
+        <Row Tag="LOC_CITY_NAME_IESS_1" Text="IESS 总部" Language="zh_Hans_CN"/>
+        <Row Tag="LOC_BRANCH" Text="分部" Language="zh_Hans_CN"/>
+    </LocalizedText>
+</GameData>

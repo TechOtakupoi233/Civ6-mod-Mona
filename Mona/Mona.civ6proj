@@ -2,12 +2,12 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>LOC_MOD_MONA_NAME</Name>
+    <Name>LOC_MONA_IESS_MOD_TITLE</Name>
     <Guid>4d793276-aa1d-424c-aa8b-d92b5a02d279</Guid>
     <ProjectGuid>e52ed1de-2484-4edb-95d4-5fd014d241b7</ProjectGuid>
     <ModVersion>1</ModVersion>
-    <Teaser>LOC_MOD_MONA_DESCRIPTION</Teaser>
-    <Description>LOC_MOD_MONA_DESCRIPTION</Description>
+    <Teaser>LOC_MONA_IESS_MOD_TEASER</Teaser>
+    <Description>LOC_MONA_IESS_MOD_DESCRIPTION</Description>
     <Authors>Kashirona</Authors>
     <SpecialThanks>Dwughjsd, hemmelfort</SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
@@ -17,10 +17,15 @@
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
     <AssemblyName>Mona</AssemblyName>
     <RootNamespace>Mona</RootNamespace>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="MonaConfig"><File>Data/Mona_Config.xml</File></UpdateDatabase><UpdateIcons id="MonaIcons"><File>Data/Mona_Icons.sql</File></UpdateIcons><UpdateText id="MonaCoreText"><File>Text/Mona_CoreText.xml</File></UpdateText><UpdateColors id="MonaColors"><File>Data/Mona_Colors.xml</File></UpdateColors><UpdateArt id="MonaArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="MonaData"><File>Data/Mona_Leader.xml</File><File>Data/Mona_Civilization.xml</File><File>Data/Mona_Civilization_Modifiers.sql</File><File>Data/Mona_Astronomical_Station.xml</File></UpdateDatabase><AddGameplayScripts id="MonaLua"><File>Data/Mona_TradeScience.lua</File><File>Data/Mona_InitialVision.lua</File></AddGameplayScripts><UpdateColors id="MonaColors"><File>Data/Mona_Colors.xml</File></UpdateColors><UpdateIcons id="MonaIcons"><File>Data/Mona_Icons.sql</File></UpdateIcons><UpdateText id="MonaText"><File>Text/Mona_CoreText.xml</File></UpdateText><UpdateArt id="MonaArt"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="MonaConfig"><File>Data/Mona_Config.xml</File></UpdateDatabase><UpdateDatabase id="MonaMondstantConfig" criteria="MondstadtMona"><File>Data/Mona_Config+Mondstant.xml</File></UpdateDatabase><UpdateDatabase id="MonaSukSelectorConfig" criteria="SukSelectorMona"><File>Data/Mona_Config+SCSS.sql</File></UpdateDatabase><UpdateIcons id="MonaIcons"><File>Data/Mona_Icons.sql</File></UpdateIcons><UpdateText id="MonaCoreText"><File>Text/Mona_CoreText.xml</File></UpdateText><UpdateColors id="MonaColors"><File>Data/Mona_Colors.xml</File></UpdateColors><UpdateArt id="MonaArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="MonaData"><File>Data/Mona_Leader.xml</File><File>Data/Mona_Civilization.xml</File><File>Data/Mona_Civilization_Modifiers.sql</File><File>Data/Mona_Astronomical_Station.xml</File><File>Data/Mona_Astrologist.xml</File><File>Data/Mona_NamesControl.sql</File></UpdateDatabase><UpdateDatabase id="MonaDataMondstant"><Criteria>MondstadtMona</Criteria><File>Data/Mona_Leader+Mondstant.xml</File></UpdateDatabase><AddGameplayScripts id="MonaLua"><File>Data/Mona_TradeScience.lua</File><File>Data/Mona_InitialVision.lua</File></AddGameplayScripts><UpdateColors id="MonaColors"><File>Data/Mona_Colors.xml</File></UpdateColors><UpdateIcons id="MonaIcons"><File>Data/Mona_Icons.sql</File></UpdateIcons><UpdateText id="MonaText"><File>Text/Mona_CoreText.xml</File></UpdateText><UpdateArt id="MonaArt"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="MondstadtMona"><ModInUse>d7b995ea-e5f6-4dd5-bc4b-2d1da05075c2</ModInUse></Criteria><Criteria id="SukSelectorMona"><ModInUse>60092bdd-ce39-4319-aef6-baea505c7c45</ModInUse></Criteria>
+    <Criteria id="IESSMona"><LeaderPlayable>Players:Expansion2_Players::LEADER_MONA,</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse></Criteria><Criteria id="SecretSocieties"><ConfigurationValueMatches><Group>Game</Group><ConfigurationId>GAMEMODE_SECRETSOCIETIES</ConfigurationId><Value>1</Value></ConfigurationValueMatches></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <LocalizedTextData><![CDATA[<LocalizedText><Text id="LOC_MONA_IESS_MOD_TITLE"><en_US>Astrologist Mona Megistus(IESS)</en_US><zh_Hans_CN>阿斯托洛吉斯·莫娜·梅姬斯图斯(IESS)</zh_Hans_CN></Text><Text id="LOC_MONA_IESS_MOD_TEASER"><en_US>New Civilizations and Leaders - Astrologist Mona Megistus of Institute of Exploring Stars and Space.</en_US><zh_Hans_CN>新文明和领袖——星空探索协会的阿斯托洛吉斯·莫娜·梅姬斯图斯。</zh_Hans_CN></Text><Text id="LOC_MONA_IESS_MOD_DESCRIPTION"><en_US>Contains a new civilization and leader.</en_US><zh_Hans_CN>包含1个新文明和领袖。</zh_Hans_CN></Text></LocalizedText>]]></LocalizedTextData>
     <AssociationData><![CDATA[<Associations>
   <Dependency type="Dlc" title="LOC_EXPANSION2_MOD_TITLE" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+  <Reference type="Mod" title="MondstantKlee" id="d7b995ea-e5f6-4dd5-bc4b-2d1da05075c2" />
+  <Reference type="Mod" title="Sukritact's Civ Selection Screen" id="d7b995ea-e5f6-4dd5-bc4b-2d1da05075c2" />
 </Associations>]]></AssociationData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
@@ -34,6 +39,9 @@
     <Folder Include="Text\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Data\Mona_Astrologist.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Data\Mona_Astronomical_Station.xml">
       <SubType>Content</SubType>
     </Content>
@@ -46,6 +54,15 @@
     <Content Include="Data\Mona_Colors.xml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Data\Mona_Config+Mondstant.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Mona_Config+Mondstant.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Mona_Config+SCSS.sql">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Data\Mona_Config.xml">
       <SubType>Content</SubType>
     </Content>
@@ -55,13 +72,25 @@
     <Content Include="Data\Mona_InitialVision.lua">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Data\Mona_Leader+Mondstant.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Data\Mona_Leader.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Mona_NamesControl.sql">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Data\Mona_TradeScience.lua">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Text\Mona_CoreText.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\Mona_DiploText.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\Mona_GameText.xml">
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>

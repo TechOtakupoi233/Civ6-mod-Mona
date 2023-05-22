@@ -7,7 +7,7 @@
 			<LeaderType>LEADER_MONA</LeaderType>
 			<CivilizationName>LOC_CIVILIZATION_IESS_NAME</CivilizationName>
 			<CivilizationIcon>ICON_CIVILIZATION_IESS</CivilizationIcon>
-			<LeaderName>LOC_LEADER_MONA_NAME</LeaderName>
+			<LeaderName>LOC_LEADER_MONA_IESS_NAME</LeaderName>
 			<LeaderIcon>ICON_LEADER_MONA</LeaderIcon>
 			<CivilizationAbilityName>LOC_TRAIT_GENIUS_LIFE_NAME</CivilizationAbilityName>
 			<CivilizationAbilityDescription>LOC_TRAIT_GENIUS_LIFE_DESCRIPTION</CivilizationAbilityDescription>

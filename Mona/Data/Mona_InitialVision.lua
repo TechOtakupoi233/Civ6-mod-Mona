@@ -4,18 +4,15 @@
 
 include("GameCapabilities");
 
-function MonaIntialVision()
+function MonaInitialVision()
     --Set desired sight radius here
     local rad = 10;
     for i, playerID in pairs(PlayerManager.GetAliveMajorIDs()) do
         if (not HasTrait("TRAIT_GREAT_ASTROLOGIST", playerID)) then return; end
-        local pPlayer = Players[playerID]
-        local pVis = PlayersVisibility[pPlayer]
+        local pVis = PlayersVisibility[playerID]
         local pPlot = Players[playerID]:GetStartingPlot();
         local tPlots = GetValidPlotsInRadiusR(pPlot, rad);
-    
         for k, pPickPlot in pairs(tPlots) do
-        
             --If there is a natural wonder on the tile, do not reveal. Any amount of revealing this tile will not allow the wonder discovery eureka during game.
             if(pPickPlot:IsNaturalWonder()) then
                 print("wonder on tile - not revealing tile");
@@ -51,4 +48,4 @@ function GetValidPlotsInRadiusR(pPlot, iRadius)
     return tTempTable;
 end
 
-MonaIntialVision();
+MonaInitialVision();

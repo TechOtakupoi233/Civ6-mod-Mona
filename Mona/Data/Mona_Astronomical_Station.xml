@@ -5,14 +5,14 @@
 		<Row Type="BUILDING_RADIO_TELESCOPE" Kind="KIND_BUILDING"/>
 	</Types>
 	<Districts>
-		<Row DistrictType="DISTRICT_ASTRONOMICAL_OBSERVATORIES" Name="LOC_DISTRICT_ASTRONOMICAL_OBSERVATORIES_NAME" Description="LOC_DISTRICT_ASTRONOMICAL_OBSERVATORIES_DESCRIPTION" PrereqTech="TECH_ASTROLOGY" PlunderType="PLUNDER_SCIENCE" PlunderAmount="50" AdvisorType="ADVISOR_GENERIC" Cost="27" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40" Maintenance="1" RequiresPlacement="false" RequiresPopulation="false" Coast="true" Aqueduct="false" NoAdjacentCity="true" InternalOnly="false" ZOC="false" TradeEmbark="true" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" TravelTime="2" CityStrengthModifier="2" TraitType="TRAIT_DISTRICT_ASTRONOMICAL_OBSERVATORIES"/>
+		<Row DistrictType="DISTRICT_ASTRONOMICAL_OBSERVATORIES" Name="LOC_DISTRICT_ASTRONOMICAL_OBSERVATORIES_NAME" Description="LOC_DISTRICT_ASTRONOMICAL_OBSERVATORIES_DESCRIPTION" PrereqTech="TECH_ASTROLOGY" PlunderType="PLUNDER_SCIENCE" PlunderAmount="50" AdvisorType="ADVISOR_TECHNOLOGY" Cost="27" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40" Maintenance="1" RequiresPlacement="true" RequiresPopulation="false" OnePerCity="true" Aqueduct="false" NoAdjacentCity="true" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" CityStrengthModifier="2" TraitType="TRAIT_DISTRICT_ASTRONOMICAL_OBSERVATORIES"/>
 	</Districts>
 	<District_ValidTerrains>
-		<Row DistrictType="DISTRICT_ASTRONOMICAL_OBSERVATORIES" TerrainType="TERRAIN_GRASS_HILLS"/>
-		<Row DistrictType="DISTRICT_ASTRONOMICAL_OBSERVATORIES" TerrainType="TERRAIN_PLAINS_HILLS"/>
-		<Row DistrictType="DISTRICT_ASTRONOMICAL_OBSERVATORIES" TerrainType="TERRAIN_TUNDRA_HILLS"/>
-		<Row DistrictType="DISTRICT_ASTRONOMICAL_OBSERVATORIES" TerrainType="TERRAIN_SNOW_HILLS"/>
-		<Row DistrictType="DISTRICT_ASTRONOMICAL_OBSERVATORIES" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row DistrictType="DISTRICT_ASTRONOMICAL_OBSERVATORIES" TerrainType="TERRAIN_GRASS_MOUNTAIN"/>
+		<Row DistrictType="DISTRICT_ASTRONOMICAL_OBSERVATORIES" TerrainType="TERRAIN_PLAINS_MOUNTAIN"/>
+		<Row DistrictType="DISTRICT_ASTRONOMICAL_OBSERVATORIES" TerrainType="TERRAIN_TUNDRA_MOUNTAIN"/>
+		<Row DistrictType="DISTRICT_ASTRONOMICAL_OBSERVATORIES" TerrainType="TERRAIN_SNOW_MOUNTAIN"/>
+		<Row DistrictType="DISTRICT_ASTRONOMICAL_OBSERVATORIES" TerrainType="TERRAIN_DESERT_MOUNTAIN"/>
 	</District_ValidTerrains>
 	<District_GreatPersonPoints>
 		<Row DistrictType="DISTRICT_ASTRONOMICAL_OBSERVATORIES" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
@@ -24,7 +24,6 @@
 		<Row DistrictType="DISTRICT_ASTRONOMICAL_OBSERVATORIES" YieldType="YIELD_SCIENCE" YieldChange="2"/>
 	</District_CitizenYieldChanges>
 	<DistrictModifiers>
-		<!-- <Row DistrictType="DISTRICT_ASTRONOMICAL_OBSERVATORIES" ModifierId="MOD_ASTRONOMICAL_OBSERVATORIES_SIGHT"/>-->
 		<!-- <Row DistrictType="DISTRICT_ASTRONOMICAL_OBSERVATORIES" ModifierId="MOD_ASTRONOMICAL_OBSERVATORIES_CULTURE"/>-->
 	</DistrictModifiers>
 	<Buildings>

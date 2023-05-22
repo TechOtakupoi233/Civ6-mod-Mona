@@ -9,7 +9,7 @@ end
 -- 钱换瓶
 function MonaTradeScience()
     -- 检查玩家是否具备“伟大的占星术士”特性
-    for playerID = 0, GameDefines.MAX_PLAYERS-1, 1 do
+    for i, playerID in pairs(PlayerManager.GetAliveMajorIDs()) do
     if (not HasTrait("TRAIT_GREAT_ASTROLOGIST", playerID)) then return; end
         local pPlayer = Players[playerID]
         if pPlayer ~= nil then
@@ -43,6 +43,18 @@ function MonaResearchReward(ePlayer, eTech)
     CapitalPlotY = pCapital:GetY()
     -- 首都上方显示飘字
     Game.AddWorldViewText(0, '[COLOR_FLOAT_GOLD]' .. '+' .. string.format("%.1f", RewardGold) .. GameInfo.Yields['YIELD_GOLD'].IconString .. '[ENDCOLOR]', CapitalPlotX, CapitalPlotY)
+    local sTitle = "LOC_NOTIFICATION_MONA_RESEARCHREWARD_TITLE"
+    local sString = ("LOC_NOTIFICATION_MONA_RESEARCHREWARD_STRING_1" .. string.format("%.1f", RewardGold) .. GameInfo.Yields['YIELD_GOLD'].IconString .. "LOC_NOTIFICATION_MONA_RESEARCHREWARD_STRING_2")
+    local notificationData = {};
+    notificationData[ParameterTypes.MESSAGE] = sTitle;
+    notificationData[ParameterTypes.SUMMARY] = sString;
+    if(CapitalPlotX ~= nil) then
+        notificationData [ParameterTypes.LOCATION] = { x = CapitalPlotX, y = CapitalPlotY};
+    end
+    notificationData.AlwaysAutoActivate = true;
+    notificationData.AlwaysUnique = true;
+    --notificationData.ShowIcon = false;
+    NotificationManager.SendNotification(ePlayer, ResearchRewardNotification, notificationData)
 end
 
 Events.TurnBegin.Add(TurnCounter)

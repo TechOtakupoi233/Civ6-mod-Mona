@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="LEADER_MONA_MONDSTANT" Kind="KIND_LEADER" />
+	</Types>
+	<CivilizationLeaders>
+		<!-- Mondstant Support -->
+		<Row CivilizationType="CIVILIZATION_MONDSTADT" LeaderType="LEADER_MONA_MONDSTANT" CapitalName="LOC_CITY_NAME_MONDSTADT"/>
+	</CivilizationLeaders>
+	<Leaders>
+		<Row LeaderType="LEADER_MONA_MONDSTANT" Name="LOC_LEADER_MONA_MONDSTANT_NAME" Sex="Female" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+	</Leaders>
+	<DuplicateLeaders>
+		<Row LeaderType="LEADER_MONA" OtherLeaderType="LEADER_MONA_MONDSTANT"/>
+	</DuplicateLeaders>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_MONA_MONDSTANT" TraitType="TRAIT_GREAT_ASTROLOGIST"/>
+	</LeaderTraits>
+</GameData>

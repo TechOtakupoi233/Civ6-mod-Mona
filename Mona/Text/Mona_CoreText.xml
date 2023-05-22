@@ -9,6 +9,8 @@
             <Text>Cities' growth speed -30%. Each[ICON_Citizen]Citizen gain 1[ICON_Science]Science, 1[ICON_Culture]Culture and 1 Loyalty.Each building inside Campus and Astronomical research station +1[ICON_Amenities]Amenity.</Text>
         </Row>
         <Row Tag="LOC_LEADER_MONA_NAME" Text="Astrologist Mona Megistus"/>
+        <Row Tag="LOC_LEADER_MONA_IESS_NAME" Text="{LOC_LEADER_MONA_NAME}({LOC_CIVILIZATION_IESS_NAME})"/>
+        <Row Tag="LOC_LEADER_MONA_MONDSTANT_NAME" Text="{LOC_LEADER_MONA_NAME}({LOC_CIVILIZATION_MONDSTADT_NAME})"/>
         <Row Tag="LOC_TRAIT_GREAT_ASTROLOGIST_NAME" Text="The Great Astrologist"/>
         <Row Tag="LOC_TRAIT_GREAT_ASTROLOGIST_DESCRIPTION">
             <Text>Every 5 Turn, 90% of[ICON_Gold]Gold balance will turn into[ICON_Science]Science with a 2:1 ratio.[NEWLINE]Every Technology done researching will return[ICON_Gold]Gold, by one third of [ICON_Science]Science the Technology required. Free Technology "ASTROLOGY" and "NAVI". Has extra initial vision.</Text>
@@ -16,6 +18,10 @@
         <Row Tag="LOC_DISTRICT_ASTRONOMICAL_OBSERVATORIES_NAME" Text="Astronomical Observatories"/>
         <Row Tag="LOC_DISTRICT_ASTRONOMICAL_OBSERVATORIES_DESCRIPTION">
             <Text>Mona's Special District, must be built on mountains, can't place adjacent to City Center. Gain massive adjacency bonus if not adjacent to any district(except for Campus).</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_ASTROLOGIST_NAME" Text="Astrologist"/>
+        <Row Tag="LOC_UNIT_ASTROLOGIST_DESCRIPTION">
+            <Text>Mona's Special Unit. Provide adjacent ally units with Defensive[ICON_Strength]strength bonus. Enhanced sight that see through features and terrains. Provide +1[ICON_Range]to adjacent Seige units.</Text>
         </Row>
     </EnglishText>
     <LocalizedText>
@@ -38,6 +44,10 @@
         <Row Tag="LOC_BUILDING_RADIO_TELESCOPE_NAME" Text="射电天文望远镜" Language="zh_Hans_CN"/>
         <Row Tag="LOC_BUILDING_RADIO_TELESCOPE_DESCRIPTION" Language="zh_Hans_CN">
             <Text>+7科技值，[ICON_Power]供电充足时额外+5[ICON_Science]科技值和文化值。为太空竞赛项目加速10%。</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_ASTROLOGIST_NAME" Text="占星术士" Language="zh_Hans_CN"/>
+        <Row Tag="LOC_UNIT_ASTROLOGIST_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>莫娜的特色支援单位。相邻的友方单位在防御时获得[ICON_Strength]战斗力加成。拥有可穿越地形和地貌的增强视野。能够为相邻的攻城单位提供+1[ICON_Range]射程。</Text>
         </Row>
     </LocalizedText>
 </GameData>

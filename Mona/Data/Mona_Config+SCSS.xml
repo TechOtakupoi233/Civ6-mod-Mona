@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<GameData>
-	<Players>
-		<Update>
-			<Where LeaderType="LEADER_MONA"/>
-			<Set Portrait="LEADER_MONA_NEUTRAL"/>
-		</Update>
-	</Players>
-</GameData>
