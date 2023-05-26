@@ -4,8 +4,8 @@
         <Row Tag="LOC_CIVILIZATION_IESS_NAME" Text="IESS"/>
         <Row Tag="LOC_CIVILIZATION_IESS_DESCRIPTION" Text="Institute of Exploring Stars and Space"/>
         <Row Tag="LOC_CIVILIZATION_IESS_ADJECTIVE" Text="IESS"/>
-        <Row Tag="LOC_TRAIT_GENIUS_LIFE_NAME" Text="Genius' Life"/>
-        <Row Tag="LOC_TRAIT_GENIUS_LIFE_DESCRIPTION">
+        <Row Tag="LOC_TARIT_SPACE_ASPIRATION_NAME" Text="Space Aspiration"/>
+        <Row Tag="LOC_TARIT_SPACE_ASPIRATION_DESCRIPTION">
             <Text>Cities' growth speed -30%. Each[ICON_Citizen]Citizen gain 1[ICON_Science]Science, 1[ICON_Culture]Culture and 1 Loyalty.Each building inside Campus and Astronomical research station +1[ICON_Amenities]Amenity.</Text>
         </Row>
         <Row Tag="LOC_LEADER_MONA_NAME" Text="Astrologist Mona Megistus"/>
@@ -28,8 +28,8 @@
         <Row Tag="LOC_CIVILIZATION_IESS_NAME" Text="IESS" Language="zh_Hans_CN"/>
         <Row Tag="LOC_CIVILIZATION_IESS_DESCRIPTION" Text="星空探索协会" Language="zh_Hans_CN"/>
         <Row Tag="LOC_CIVILIZATION_IESS_ADJECTIVE" Text="IESS" Language="zh_Hans_CN"/>
-        <Row Tag="LOC_TRAIT_GENIUS_LIFE_NAME" Text="生活的智慧" Language="zh_Hans_CN"/>
-        <Row Tag="LOC_TRAIT_GENIUS_LIFE_DESCRIPTION" Language="zh_Hans_CN">
+        <Row Tag="LOC_TARIT_SPACE_ASPIRATION_NAME" Text="向往星空" Language="zh_Hans_CN"/>
+        <Row Tag="LOC_TARIT_SPACE_ASPIRATION_DESCRIPTION" Language="zh_Hans_CN">
             <Text>城市发展速度-30%。每[ICON_Citizen]人口+1[ICON_Science]科技和[ICON_Culture]文化值，输出的忠诚度+1点。学院和天文科考站区域内的每个建筑+1[ICON_Amenities]宜居度。</Text>
         </Row>
         <Row Tag="LOC_LEADER_MONA_NAME" Text="阿斯托洛吉斯·莫娜·梅姬斯图斯" Language="zh_Hans_CN"/>

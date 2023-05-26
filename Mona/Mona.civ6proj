@@ -18,7 +18,7 @@
     <AssemblyName>Mona</AssemblyName>
     <RootNamespace>Mona</RootNamespace>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="MonaConfig"><File>Data/Mona_Config.xml</File></UpdateDatabase><UpdateDatabase id="MonaMondstantConfig" criteria="MondstadtMona"><File>Data/Mona_Config+Mondstant.xml</File></UpdateDatabase><UpdateDatabase id="MonaSukSelectorConfig" criteria="SukSelectorMona"><File>Data/Mona_Config+SCSS.sql</File></UpdateDatabase><UpdateIcons id="MonaIcons"><File>Data/Mona_Icons.sql</File></UpdateIcons><UpdateText id="MonaCoreText"><File>Text/Mona_CoreText.xml</File></UpdateText><UpdateColors id="MonaColors"><File>Data/Mona_Colors.xml</File></UpdateColors><UpdateArt id="MonaArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="MonaData"><File>Data/Mona_Leader.xml</File><File>Data/Mona_Civilization.xml</File><File>Data/Mona_Civilization_Modifiers.sql</File><File>Data/Mona_Astronomical_Station.xml</File><File>Data/Mona_Astrologist.xml</File><File>Data/Mona_NamesControl.sql</File></UpdateDatabase><UpdateDatabase id="MonaDataMondstant"><Criteria>MondstadtMona</Criteria><File>Data/Mona_Leader+Mondstant.xml</File></UpdateDatabase><AddGameplayScripts id="MonaLua"><File>Data/Mona_TradeScience.lua</File><File>Data/Mona_InitialVision.lua</File></AddGameplayScripts><UpdateColors id="MonaColors"><File>Data/Mona_Colors.xml</File></UpdateColors><UpdateIcons id="MonaIcons"><File>Data/Mona_Icons.sql</File></UpdateIcons><UpdateText id="MonaText"><File>Text/Mona_CoreText.xml</File></UpdateText><UpdateArt id="MonaArt"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="MonaData"><File>Data/Mona_Leader.xml</File><File>Data/Mona_Civilization.xml</File><File>Data/Mona_Civilization_Modifiers.sql</File><File>Data/Mona_Astronomical_Station.xml</File><File>Data/Mona_Astrologist.xml</File><File>Data/Mona_NamesControl.sql</File><File>UI/Mona_Notifications.sql</File><File>Data/Mona_Projects.xml</File></UpdateDatabase><UpdateDatabase id="MonaDataMondstant"><Criteria>MondstadtMona</Criteria><File>Data/Mona_Leader+Mondstant.xml</File></UpdateDatabase><AddGameplayScripts id="MonaLua"><File>Data/Mona_TradeScience.lua</File><File>Data/Mona_InitialVision.lua</File></AddGameplayScripts><UpdateColors id="MonaColors"><File>Data/Mona_Colors.xml</File></UpdateColors><UpdateIcons id="MonaIcons"><File>Data/Mona_Icons.sql</File></UpdateIcons><UpdateText id="MonaText"><File>Text/Mona_CoreText.xml</File><File>Text/Mona_GameText.xml</File></UpdateText><UpdateArt id="MonaArt"><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="MonaNotificationsMgr"><Properties><LuaContext>ActionPanel</LuaContext></Properties><File>UI/Mona_Notifications.lua</File></ImportFiles></InGameActions>]]></InGameActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="MondstadtMona"><ModInUse>d7b995ea-e5f6-4dd5-bc4b-2d1da05075c2</ModInUse></Criteria><Criteria id="SukSelectorMona"><ModInUse>60092bdd-ce39-4319-aef6-baea505c7c45</ModInUse></Criteria>
     <Criteria id="IESSMona"><LeaderPlayable>Players:Expansion2_Players::LEADER_MONA,</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse></Criteria><Criteria id="SecretSocieties"><ConfigurationValueMatches><Group>Game</Group><ConfigurationId>GAMEMODE_SECRETSOCIETIES</ConfigurationId><Value>1</Value></ConfigurationValueMatches></Criteria></ActionCriteria>]]></ActionCriteriaData>
     <LocalizedTextData><![CDATA[<LocalizedText><Text id="LOC_MONA_IESS_MOD_TITLE"><en_US>Astrologist Mona Megistus(IESS)</en_US><zh_Hans_CN>阿斯托洛吉斯·莫娜·梅姬斯图斯(IESS)</zh_Hans_CN></Text><Text id="LOC_MONA_IESS_MOD_TEASER"><en_US>New Civilizations and Leaders - Astrologist Mona Megistus of Institute of Exploring Stars and Space.</en_US><zh_Hans_CN>新文明和领袖——星空探索协会的阿斯托洛吉斯·莫娜·梅姬斯图斯。</zh_Hans_CN></Text><Text id="LOC_MONA_IESS_MOD_DESCRIPTION"><en_US>Contains a new civilization and leader.</en_US><zh_Hans_CN>包含1个新文明和领袖。</zh_Hans_CN></Text></LocalizedText>]]></LocalizedTextData>
@@ -37,6 +37,7 @@
   <ItemGroup>
     <Folder Include="Data" />
     <Folder Include="Text\" />
+    <Folder Include="UI\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Data\Mona_Astrologist.xml">
@@ -81,6 +82,9 @@
     <Content Include="Data\Mona_NamesControl.sql">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Data\Mona_Projects.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Data\Mona_TradeScience.lua">
       <SubType>Content</SubType>
     </Content>
@@ -91,6 +95,15 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Text\Mona_GameText.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\Mona_Notifications.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\Mona_Notifications.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\Mona_SFX.lua">
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>

@@ -9,8 +9,8 @@
 			<CivilizationIcon>ICON_CIVILIZATION_IESS</CivilizationIcon>
 			<LeaderName>LOC_LEADER_MONA_IESS_NAME</LeaderName>
 			<LeaderIcon>ICON_LEADER_MONA</LeaderIcon>
-			<CivilizationAbilityName>LOC_TRAIT_GENIUS_LIFE_NAME</CivilizationAbilityName>
-			<CivilizationAbilityDescription>LOC_TRAIT_GENIUS_LIFE_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityName>LOC_TARIT_SPACE_ASPIRATION_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TARIT_SPACE_ASPIRATION_DESCRIPTION</CivilizationAbilityDescription>
 			<CivilizationAbilityIcon>ICON_CIVILIZATION_IESS</CivilizationAbilityIcon>
 			<LeaderAbilityName>LOC_TRAIT_GREAT_ASTROLOGIST_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_TRAIT_GREAT_ASTROLOGIST_DESCRIPTION</LeaderAbilityDescription>

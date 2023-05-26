@@ -1,78 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-<LocalizedText>
-        <Row Tag="LOC_LEADER_MONA_QUOTE" Language="zh_Hans_CN">
-            <Text>“城里放炮禁闭室报到”、“炸弹伤人琴找上门”、“放火烧山可莉完蛋”——这就是可莉在骑士团的生存守则。</Text>
-        </Row>
+    <LocalizedText>
 
-        <Row Tag="LOC_AGENDA_FLEEING_SUNLIGHT_NAME" Language="zh_Hans_CN">
-            <Text>逃跑的太阳</Text>
+        <Row Tag="LOC_AGENDA_GENIUS_LIFE_NAME" Language="zh_Hans_CN">
+            <Text>至高的智慧（生活）</Text>
         </Row>
-        <Row Tag="LOC_AGENDA_FLEEING_SUNLIGHT_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>会毫不犹豫地使用核武器。尊重拥有强大核威慑力的文明。</Text>
+        <Row Tag="LOC_AGENDA_GENIUS_LIFE_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>尊重[ICON_Science]科技先进、[ICON_Gold]经济实力强大的文明。不会主动宣战。</Text>
         </Row>
         <Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_MONA_ANY" Language="zh_Hans_CN">
-            <Text>你也不害怕我的炸弹呢！嘿嘿，太好了，可莉果然交到了很好的朋友！</Text>
-        </Row>
-        <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_FLEEING_SUNLIGHT_HIGH_NUKE_LOVE" Language="zh_Hans_CN">
-            <Text>可莉很高兴您喜欢大爆炸</Text>
+            <Text>命中当如此，我早已预知到了。</Text>
         </Row>
         <Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_MONA_ANY" Language="zh_Hans_CN">
-            <Text>如果你想学习炸弹的制作方法，我也可以来教你哦。</Text>
-        </Row>
-        <Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_FLEEING_SUNLIGHT_LOW_NUKE_LOVE" Language="zh_Hans_CN">
-            <Text>可莉失望于您不敢使用核武器</Text>
+            <Text>我无法准确地为你预言。我只能告诉你，你要走的路还远未到尽头。</Text>
         </Row>
 
         <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_MONA_ANY" Language="zh_Hans_CN">
             <!--初次见面 - 角色页面-->
-            <Text>西风骑士团“火花骑士”，可莉！……呃——后面该说什么词来着？可莉背不下来啦……</Text>
-        </Row>
-        <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_MONA_ANY" Language="zh_Hans_CN">
-            <!--初次见面，提供最近城市位置-->
-            <Text>要和可莉一起来我们附近的城市炸鱼吗？虽然被抓住就是一整天的禁闭，但鱼很好吃，所以值得！</Text>
-        </Row>
-        <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_MONA_ANY" Language="zh_Hans_CN">
-            <!--初次见面，玩家提供最近城市位置-->
-            <Text>好耶！是大冒险。</Text>
+            <Text>我的名字是阿斯托洛吉斯·莫娜·梅姬斯图斯，以IESS总辖的名义向你们致以诚挚的问候。</Text>
         </Row>
         <Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_MONA_ANY" Language="zh_Hans_CN">
             <!--初次见面，请求交换首都位置-->
-            <Text>有好多餐馆和旅店都很在意妈妈写的《提瓦特游览指南》的权威评价，可是连她都没有听过你的首都。可莉一定要了解了解！</Text>
+            <Text>不如我们交换一下首都的位置吧，这对我们都有好处。</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_MONA_ANY" Language="zh_Hans_CN">
+            <!--初次见面，提供最近城市位置-->
+            <Text>IESS在附近设有分部。有兴趣来了解我们的研究吗？</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_MONA_ANY" Language="zh_Hans_CN">
+            <!--初次见面，玩家提供最近城市位置-->
+            <Text>谢谢，想必这对我们之间的学术交流有促进作用。</Text>
         </Row>
 
+        <Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_MONA_ANY" Language="zh_Hans_CN">
+            <!--请求派遣使节 - 想要了解可莉・其五-->
+            <Text>我们组织了一个团队计划去贵国进行学术交流，你会接受吗？</Text>
+        </Row>
         <Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_MONA_ANY" Language="zh_Hans_CN">
             <!--接受使节派遣 - 收到赠礼・其二-->
-            <Text>可莉好开心！谢谢你！</Text>
+            <Text>我代表IESS欢迎贵方使团到访，希望我们的交流可以更进一步。</Text>
         </Row>
         <Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_MONA_ANY" Language="zh_Hans_CN">
             <!--拒绝使节派遣 - 讨厌的食物…-->
-            <Text>讨厌使者——可莉要出去玩——</Text>
-        </Row>
-        <Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_MONA_ANY" Language="zh_Hans_CN">
-            <!--请求派遣使节 - 想要了解可莉・其五-->
-            <Text>我们的代表团带了“可莉烤鱼”送给你！——呃，其实鱼是直接在湖里就被炸弹烤熟了。</Text>
+            <Text>我们最近有一个大项目需要集中精力，暂时抽不开身接待你们的师团。</Text>
         </Row>
 
-        <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MONA_ANY" Language="zh_Hans_CN">
-            <!--同意声明友谊-->
-            <Text>你是可莉的玩伴了！那就来和可莉一起撑到看完马戏团的午夜专场！</Text>
-        </Row>
-        <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MONA_ANY" Language="zh_Hans_CN">
-            <!--拒绝声明友谊-->
-            <Text>凯亚哥哥说，这样做了以后，琴团长恐怕会让我再也见不到第二天的太阳……</Text>
-        </Row>
         <Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_MONA_ANY" Language="zh_Hans_CN">
             <!--请求声明友谊-->
-            <Text>你是个好人！来和可莉做朋友，带我出去玩吧！</Text>
+            <Text>在这个真实得太过分的世界里，每个人都需要仰望星空。想要试试看吗？</Text>
         </Row>
         <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_MONA_ANY" Language="zh_Hans_CN">
             <!--请求声明友谊被接受-->
-            <Text>带可莉出去玩吧！我们一起来冒险！</Text>
+            <Text>非常感谢贵国给予的大力支持，我保证IESS不会让朋友失望的。</Text>
         </Row>
         <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_MONA_ANY" Language="zh_Hans_CN">
             <!--请求声明友谊被拒绝-->
-            <Text>可莉不是小孩子了——带我出去玩——</Text>
+            <Text>我知道了。假以时日，IESS会令你们刮目相看。</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MONA_ANY" Language="zh_Hans_CN">
+            <!--同意声明友谊-->
+            <Text>IESS随时欢迎新朋友，你愿意支持我们真是太好了。</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MONA_ANY" Language="zh_Hans_CN">
+            <!--拒绝声明友谊-->
+            <Text>IESS需要审核合作者的资质，有机会再谈论合作事宜吧。</Text>
+        </Row>
+
+        <Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_MONA_ANY" Language="zh_Hans_CN">
+            <!--同意交易-->
+            <Text>没想到，认识你还是挺不错的嘛。</Text>
+        </Row>
+
+        <Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_MONA_ANY" Language="zh_Hans_CN">
+            <!--拒绝交易-->
+            <Text>真不巧。</Text>
         </Row>
 
         <Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_MONA_ANY" Language="zh_Hans_CN">
@@ -82,77 +83,63 @@
         
         <Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_MONA_ANY" Language="zh_Hans_CN">
             <!--被谴责-->
-            <Text>如果你是在什么纵火现场发现了炸弹的话，那就不是我做的，绝对不是。</Text>
+            <Text>IESS并不在意目光短浅的蠢货是怎么看待我们的。</Text>
         </Row>
-
         <Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_MONA_ANY" Language="zh_Hans_CN">
             <!--谴责玩家 - 迷境之岛！无法预测的旅行-->
-            <Text>坏家伙、坏家伙坏家伙！（谴责你）</Text>
+            <Text>虽然我不太关心国际事务，但是这次我实在是看不下去了。（谴责你）</Text>
         </Row>
         <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_MONA_ANY" Language="zh_Hans_CN">
             <!--被宣战 - 1.6-->
-            <Text>既然要可莉来找你，那可莉就来啦！蹦蹦炸弹，预备——！</Text>
+            <Text>IESS会坚持达成目标——如果你们要阻拦我们，我们也不会客气。</Text>
         </Row>
-
         <Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_MONA_ANY" Language="zh_Hans_CN">
             <!--主动宣战- 1.6-->
-            <Text>嗯，要带蹦蹦炸弹、嘟嘟可……还有我自己！我来抓你啦！</Text>
+            <Text>你们成为了IESS前进道路上的障碍，准备接受命运吧。</Text>
         </Row>
-
-        <Row Tag="LOC_DIPLO_GREETING_LEADER_MONA_ANY" Language="zh_Hans_CN">
-            <!--理论上是玩家发起外交时使用的，但实际上从未被使用过 - 想要了解可莉・其一-->
-            <Text>你好！你是来找可莉玩的吗？</Text>
-        </Row>
-
-        
-        <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_MONA_ANY" Language="zh_Hans_CN">
-            <!--要求移开边境军队-->
-            <Text>可莉今天在我们的边界勇敢地抓到了打扮奇怪的军队！是你的吗？</Text>
-        </Row>
-
         <Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_MONA_ANY" Language="zh_Hans_CN">
             <!--战败- 战斗语音-->
-            <Text>可莉……想回家了……</Text>
+            <Text>星空…黯淡…</Text>
         </Row>
 
-        <Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_MONA_ANY" Language="zh_Hans_CN">
-            <!--同意交易-->
-            <Text>好耶！</Text>
+        <Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_MONA_ANY" Language="zh_Hans_CN">
+            <!--要求移开边境军队-->
+            <Text>你的军队给我们的研究人员造成了恐慌。行个方便吧，至少离开他们的视线。</Text>
         </Row>
-
-        <Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_MONA_ANY" Language="zh_Hans_CN">
-            <!--拒绝交易-->
-            <Text>过分……</Text>
+        <Row Tag="LOC_DIPLO_GREETING_LEADER_MONA_ANY" Language="zh_Hans_CN">
+            <!--理论上是玩家发起外交时使用的，但实际上从未被使用过 - 想要了解可莉・其一-->
+            <Text></Text>
         </Row>
+        
 
         <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_MONA_ANY" Language="zh_Hans_CN">
             <!--理论上是同意求和，但从未被使用过-->
-            <Text>可莉喜欢和平！</Text>
+            <Text></Text>
         </Row>
 
         <Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_MONA_ANY" Language="zh_Hans_CN">
             <!--理论上是拒绝求和，但从未被使用过-->
-            <Text>我要把你们全——都炸完！</Text>
+            <Text></Text>
         </Row>
 
         <Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_MONA_ANY" Language="zh_Hans_CN">
             <!--理论上是求和，但从未被使用过-->
-            <Text>你是好人。等我们和谈了，再一起玩，好吗？</Text>
+            <Text></Text>
         </Row>
 
         <Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_MONA_ANY" Language="zh_Hans_CN">
             <!--理论上是同意开放边界，但从未被使用过-->
-            <Text>你是个好人，所以我也会耐心地等你办完自己的事的。</Text>
+            <Text></Text>
         </Row>
 
         <Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_MONA_ANY" Language="zh_Hans_CN">
             <!--理论上是拒绝开放边界，但从未被使用过-->
-            <Text>讨厌你们的军队——什么人都讨厌！</Text>
+            <Text></Text>
         </Row>
 
         <Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_MONA_ANY" Language="zh_Hans_CN">
             <!--理论上是请求开放边界，但从未被使用过-->
-            <Text>可莉必须要经过你的边境去一个地方！求求你啦——帮帮可莉吧！</Text>
+            <Text></Text>
         </Row>
     </LocalizedText>
 </GameData>

@@ -3,8 +3,11 @@
 	<Types>
 		<Row Type="LEADER_MONA" Kind="KIND_LEADER"/>
 		<Row Type="TRAIT_GREAT_ASTROLOGIST" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_GENIUS_LIFE" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_UNIT_ASTROLOGIST" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_DISTRICT_ASTRONOMICAL_OBSERVATORIES" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_MONA_UNIQUE_PROJECTS" Kind="KIND_TRAIT"/>
+		<Row Type="MODIFIER_PLAYER_ALLOW_PROJECT_MONA" Kind="KIND_MODIFIER"/>
 	</Types>
 	<CivilizationLeaders>
 		<Row CivilizationType="CIVILIZATION_IESS" LeaderType="LEADER_MONA" CapitalName="LOC_CITY_NAME_IESS_1"/>
@@ -19,28 +22,86 @@
 		<Row LeaderType="LEADER_MONA" TraitType="TRAIT_GREAT_ASTROLOGIST"/>
 		<Row LeaderType="LEADER_MONA" TraitType="TRAIT_UNIT_ASTROLOGIST"/>
 		<Row LeaderType="LEADER_MONA" TraitType="TRAIT_DISTRICT_ASTRONOMICAL_OBSERVATORIES"/>
+		<Row LeaderType="LEADER_MONA" TraitType="TRAIT_MONA_UNIQUE_PROJECTS"/>
 	</LeaderTraits>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_MONA" AgendaType="AGENDA_GENIUS_LIFE"/>
+	</HistoricalAgendas>
+	<Agendas>
+		<Row AgendaType="AGENDA_GENIUS_LIFE" Name="LOC_AGENDA_GENIUS_LIFE_NAME" Description="LOC_AGENDA_GENIUS_LIFE_DESCRIPTION"/>
+	</Agendas>
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_GENIUS_LIFE" AgendaTwo="AGENDA_TECHNOPHILE"/>
+	</ExclusiveAgendas>
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_GENIUS_LIFE" TraitType="TRAIT_AGENDA_GENIUS_LIFE"/>
+	</AgendaTraits>
 	<Traits>
 		<Row TraitType="TRAIT_GREAT_ASTROLOGIST" Name="LOC_TRAIT_GREAT_ASTROLOGIST_NAME" Description="LOC_TRAIT_GREAT_ASTROLOGIST_DESCRIPTION"/>
+		<Row TraitType="TRAIT_AGENDA_GENIUS_LIFE"/>
 		<Row TraitType="TRAIT_UNIT_ASTROLOGIST"/>
 		<Row TraitType="TRAIT_DISTRICT_ASTRONOMICAL_OBSERVATORIES"/>
+		<Row TraitType="TRAIT_MONA_UNIQUE_PROJECTS"/>
 	</Traits>
 	<TraitModifiers>
 		<Row TraitType="TRAIT_GREAT_ASTROLOGIST" ModifierId="MOD_MONA_FREE_TECH_ASTROLOGY"/>
 		<Row TraitType="TRAIT_GREAT_ASTROLOGIST" ModifierId="MOD_MONA_FREE_TECH_CELESTIAL_NAVIGATION"/>
 		<Row TraitType="TRAIT_GREAT_ASTROLOGIST" ModifierId="MOD_MONA_GRANT_RECON_PROMOTION_SENTRY"/>
 		<Row TraitType="TRAIT_GREAT_ASTROLOGIST" ModifierId="MOD_MONA_GRANT_RECON_PROMOTION_SPYGLASS"/>
+		<Row TraitType="TRAIT_AGENDA_GENIUS_LIFE" ModifierId="AGENDA_HIGH_SCIENCE"/>
+		<Row TraitType="TRAIT_MONA_UNIQUE_PROJECTS" ModifierId="MOD_MONA_PROJECT_LAUNCH_SPACE_TELESCOPE"/>
 	</TraitModifiers>
+	<DynamicModifiers>
+		<Row ModifierType="MODIFIER_PLAYER_ALLOW_PROJECT_MONA" CollectionType="COLLECTION_OWNER" EffectType="EFFECT_ADD_PLAYER_PROJECT_AVAILABILITY"/>
+	</DynamicModifiers>
 	<Modifiers>
 		<Row ModifierId="MOD_MONA_FREE_TECH_ASTROLOGY" ModifierType="MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY"/>
 		<Row ModifierId="MOD_MONA_FREE_TECH_CELESTIAL_NAVIGATION" ModifierType="MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY"/>
 		<Row ModifierId="MOD_MONA_GRANT_RECON_PROMOTION_SENTRY" ModifierType="MODIFIER_PLAYER_UNITS_GRANT_PROMOTION"/>
 		<Row ModifierId="MOD_MONA_GRANT_RECON_PROMOTION_SPYGLASS" ModifierType="MODIFIER_PLAYER_UNITS_GRANT_PROMOTION"/>
+		<Row ModifierId="MOD_MONA_PROJECT_LAUNCH_SPACE_TELESCOPE" ModifierType="MODIFIER_PLAYER_ALLOW_PROJECT_MONA"/>
 	</Modifiers>
 	<ModifierArguments>
 		<Row ModifierId="MOD_MONA_FREE_TECH_ASTROLOGY" Name="TechType" Value="TECH_ASTROLOGY"/>
 		<Row ModifierId="MOD_MONA_FREE_TECH_CELESTIAL_NAVIGATION" Name="TechType" Value="TECH_CELESTIAL_NAVIGATION"/>
 		<Row ModifierId="MOD_MONA_GRANT_RECON_PROMOTION_SENTRY" Name="PromotionType" Value="PROMOTION_SENTRY"/>
 		<Row ModifierId="MOD_MONA_GRANT_RECON_PROMOTION_SPYGLASS" Name="PromotionType" Value="PROMOTION_SPYGLASS"/>
+		<Row ModifierId="MOD_MONA_PROJECT_LAUNCH_SPACE_TELESCOPE" Name="ProjectType" Value="PROJECT_LAUNCH_SPACE_TELESCOPE"/>
 	</ModifierArguments>
+
+	<AiListTypes>
+		<Row ListType="MonaTechs"/>
+		<Row ListType="MonaCivics"/>
+		<Row ListType="MonaWonders"/>
+		<Row ListType="MonaWarLimits"/>
+		<Row ListType="MonaIgnoreWarmongerValue"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="MonaTechs" LeaderType="TRAIT_GREAT_ASTROLOGIST" System="Technologies"/>
+		<Row ListType="MonaWonders" LeaderType="TRAIT_GREAT_ASTROLOGIST" System="Buildings"/>
+		<Row ListType="MonaCivics" LeaderType="TRAIT_GREAT_ASTROLOGIST" System="Civics"/>
+		<Row ListType="MonaCivics" LeaderType="TRAIT_GREAT_ASTROLOGIST" System="Civics"/>
+		<Row ListType="MonaWarLimits" AgendaType="TRAIT_AGENDA_GENIUS_LIFE" System="DiplomaticActions"/>
+		<Row ListType="MonaIgnoreWarmongerValue" AgendaType="TRAIT_AGENDA_GENIUS_LIFE" System="PseudoYields"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="MonaTechs" Item="TECH_WRITING" Favored="true"/>
+		<Row ListType="MonaTechs" Item="TECH_ASTROLOGY" Favored="true"/>
+		<Row ListType="MonaTechs" Item="TECH_CELESTIAL_NAVIGATION" Favored="true"/>
+		<Row ListType="MonaTechs" Item="TECH_EDUCATION" Favored="true"/>
+		<Row ListType="MonaTechs" Item="TECH_ASTRONOMY" Favored="true"/>
+		<Row ListType="MonaTechs" Item="TECH_SCIENTIFIC_THEORY" Favored="true"/>
+		<Row ListType="MonaTechs" Item="TECH_SATELLITES" Favored="true"/>
+		<Row ListType="MonaWonders" Item="BUILDING_GREAT_LIBRARY" Favored="true"/>
+		<Row ListType="MonaWonders" Item="BUILDING_OXFORD_UNIVERSITY" Favored="true"/>
+		<InsertOrIgnore ListType="MonaWonders" Item="BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION" Favored="true"/>
+		<InsertOrIgnore ListType="MonaWonders" Item="BUILDING_UNIVERSITY_SANKORE" Favored="true"/>
+		<Row ListType="MonaCivics" Item="CIVIC_POLITICAL_PHILOSOPHY" Favored="true"/>
+		<Row ListType="MonaCivics" Item="CIVIC_DRAMA_POETRY" Favored="true"/>
+		<Row ListType="MonaCivics" Item="CIVIC_RECORDED_HISTORY" Favored="true"/>
+		<Row ListType="MonaWarLimits" Item="DIPLOACTION_DECLARE_SURPRISE_WAR" Favored="false"/>
+		<Row ListType="MonaWarLimits" Item="DIPLOACTION_DECLARE_FORMAL_WAR" Favored="false"/>
+		<Row ListType="MonaWarLimits" Item="DIPLOACTION_DECLARE_WAR_MINOR_CIV" Favored="false"/>
+		<Row ListType="MonaIgnoreWarmongerValue" Item="PSEUDOYIELD_DIPLOMATIC_BONUS" Value="-100"/>
+	</AiFavoredItems>
 </GameData>

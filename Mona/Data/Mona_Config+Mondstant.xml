@@ -24,16 +24,6 @@
 			<Domain>Players:Expansion2_Players</Domain>
 			<CivilizationType>CIVILIZATION_MONDSTADT</CivilizationType>
 			<LeaderType>LEADER_MONA_MONDSTANT</LeaderType>
-			<Type>DISTRICT_ASTRONOMICAL_OBSERVATORIES</Type>
-			<Name>LOC_DISTRICT_ASTRONOMICAL_OBSERVATORIES_NAME</Name>
-			<Description>LOC_DISTRICT_ASTRONOMICAL_OBSERVATORIES_DESCRIPTION</Description>
-			<Icon>ICON_DISTRICT_ASTRONOMICAL_OBSERVATORIES</Icon>
-			<SortIndex>20</SortIndex>
-		</Row>
-		<Row>
-			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_MONDSTADT</CivilizationType>
-			<LeaderType>LEADER_MONA_MONDSTANT</LeaderType>
 			<Type>DISTRICT_FAVONIUS_STRONGHOLD</Type>
 			<Name>LOC_DISTRICT_FAVONIUS_STRONGHOLD_NAME</Name>
 			<Description>LOC_DISTRICT_FAVONIUS_STRONGHOLD_DESCRIPTION</Description>

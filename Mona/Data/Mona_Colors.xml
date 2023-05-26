@@ -11,6 +11,16 @@
 			<Alt1PrimaryColor>COLOR_MONA_PURPLE</Alt1PrimaryColor>
 			<Alt1SecondaryColor>COLOR_STANDARD_WHITE_LT</Alt1SecondaryColor>
 		</Row>
+		<Row>
+			<Type>LEADER_MONA_MONDSTANT</Type>
+			<Usage>Unique</Usage>
+			<Alt2PrimaryColor>COLOR_MONA_GREY</Alt2PrimaryColor>
+			<Alt2SecondaryColor>COLOR_STANDARD_WHITE_LT</Alt2SecondaryColor>
+			<PrimaryColor>COLOR_MONA_BLUE</PrimaryColor>
+			<SecondaryColor>COLOR_STANDARD_WHITE_LT</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_MONA_PURPLE</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_STANDARD_WHITE_LT</Alt1SecondaryColor>
+		</Row>
 	</PlayerColors>
 	<Colors>
         <Row Type="COLOR_MONA_GREY" COLOR="83,73,92,255"/>

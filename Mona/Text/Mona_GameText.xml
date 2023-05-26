@@ -7,5 +7,78 @@
     <LocalizedText>
         <Row Tag="LOC_CITY_NAME_IESS_1" Text="IESS 总部" Language="zh_Hans_CN"/>
         <Row Tag="LOC_BRANCH" Text="分部" Language="zh_Hans_CN"/>
+        <Row Tag="LOC_PROJECT_LAUNCH_SPACE_TELESCOPE_NAME" Text="发射空间望远镜" Language="zh_Hans_CN"/>
+        <Row Tag="LOC_PROJECT_LAUNCH_SPACE_TELESCOPE_SHORT_NAME" Text="空间望远镜" Language="zh_Hans_CN"/>
+        <Row Tag="LOC_PROJECT_LAUNCH_SPACE_TELESCOPE_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>宇航中心项目。每回合+3[ICON_GreatScientist]大科学家和[ICON_GreatScientist]大工程师点数。拥有学院的城市+25%[ICON_Science]科技值，拥有广播中心的城市+25%[ICON_Cultre]文化值。</Text>
+        </Row>
+        <Row Tag="LOC_PROJECT_LAUNCH_DEEP_SPACE_OBSERAVATORIES_NAME" Text="发射深空观测站" Language="zh_Hans_CN"/>
+        <Row Tag="LOC_PROJECT_LAUNCH_DEEP_SPACE_OBSERAVATORIES_SHORT_NAME" Text="深空观测站" Language="zh_Hans_CN"/>
+        <Row Tag="LOC_PROJECT_LAUNCH_DEEP_SPACE_OBSERAVATORIES_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>宇航中心项目。每回合+5[ICON_GreatScientist]大科学家和[ICON_GreatScientist]大工程师点数。+25%[ICON_Science]科技值。</Text>
+        </Row>
+        <!-- Leader specific pedia text. -->
+        <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MONA_TITLE" Language="zh_Hans_CN">
+            <Text>{LOC_LEADER_MONA_NAME}</Text>
+        </Row>
+        <Row Tag="LOC_LEADER_MONA_QUOTE" Language="zh_Hans_CN">
+            <Text>限制物欲是占星术士修行的一部分，只有简朴的生活，才能窥探到世界的真实。</Text>
+        </Row>
+        <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MONA_SUBTITLE" Language="zh_Hans_CN">
+            <Text>占星术流派“水占术”中的天才，对待占星术有自己的原则，以全部的精力与经济投入到科研工作中，甚至衣食住行的花费都控制在最低限度。</Text>
+        </Row>
+        <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MONA_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+            <Text>莫娜能以夸张的速度获取[ICON_Science]科技值，代价是存不住[ICON_Gold]钱。</Text>
+        </Row>
+        <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MONA_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+            <Text>莫娜每段时间都会将大多数的存款投入到科研经费中，而她又可以从新研究的科技中获取一些收入。尽可能地发展[ICON_Science]科技和[ICON_Gold]经济，“天才占星术士”可不是浪得虚名。</Text>
+        </Row>
+        
+        <!-- Leader specific historical text. -->
+        <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MONA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>莫娜是一位奇特的占星术士——与其他的占星术士为了赏钱可以信口雌黄不同，莫娜替人占卜向来都是分文不取，但也不会对占卜的结果加以修饰。即便是会让人不悦的结果，她也会直截了当地告诉对方：「就算你加入冒险家协会，也不会出人头地的」、「你和他没机会的，不久之后他就会远走」等等，诸如此类。</Text>
+        </Row>
+        <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MONA_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+            <Text>她直言不讳的性格导致来找她占卜的人骤减。莫娜对此并无不满，这让她能将更多的时间用在自己的研究上。[NEWLINE]既然是研究，那么器具、书籍自然是必不可少的，而莫娜唯一的收入来源是为《蒸汽鸟报》的《星座相谈》专栏供稿。每当稿费到账，她总是会将钱优先用在研究上，璃月的古书、须弥的星盘…每一件都价格不菲，等她回过神时，每月剩下的稿酬勉强只够她满足温饱生活的了。</Text>
+        </Row>        
+        <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MONA_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+            <Text>===============================</Text>
+        </Row>    
+        <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MONA_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+            <Text>莫娜从登场开始就一直给玩家们带来“穷”的印象，这一点在被各种二创发扬光大（甚至官方的不少文案和语音）后，“莫娜很穷”已然成了玩家们对她的刻板印象。</Text>
+        </Row>
+        <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MONA_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+            <Text>事实上，莫娜并不是传统意义上的“穷”——她的“穷”只表现在没有现金、衣食住行预算很极限这些方面。莫娜的收入并不低，只是这些收入的绝大部分都被作为科研预算花掉了，她拥有的财产价值可是相当高的。</Text>
+        </Row>
+        
+        <!-- Civilization specific historical text. -->
+        <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_IESS_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>IESS(星空探索协会)是一个基于二次创作历史背景的虚构组织，该组织及其领袖莫娜(IESS)不属于miHoYo出品的《原神》原作游戏内容。因此，这些内容可能会存在OOC。</Text>
+        </Row>
+        <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_IESS_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+            <Text>===============================</Text>
+        </Row>
+        <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_IESS_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+            <Text>IESS(星空探索协会)是由一群有志之士聚在阿斯托洛吉斯·莫娜·梅姬斯图斯麾下，一起实现共同目标的组织。IESS的成员来自世界各地，他们的专业领域也不完全相同，但他们要做的事简单来说就是：看天，和上天。</Text>
+        </Row>
+        <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_IESS_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+            <Text>莫娜身为占星术的专家，按理来说原本是没必要涉及到宇航学这个门类的。但在机缘巧合之下，她遇到了一群特殊的年轻人：他们的目标不仅局限于看天，而是在着手触摸天空。[NEWLINE]这点燃了莫娜的求知欲。自从知道“虚假之天”这一概念不是空穴来风，她对自己头顶的这片星空就产生了一丝怀疑。[NEWLINE]“虚假之天”是什么？真实的星空是什么样的？莫娜也很想知道。[NEWLINE]而她碰上的这几个年轻人，此刻正手舞足蹈地向这位占星术前辈介绍他们研究的小火箭是怎么冲向天空的。更重要的是，和她一同来到须弥，此刻正站在一旁的旅行者，似乎对这群人也很感兴趣。</Text>
+        </Row>
+        <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_IESS_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+            <Text>莫娜也对他们产生了浓厚的兴趣，在继续自己的研究之余，也对这群人和跟他们有类似意向的人与团体保持关注。莫娜对这些人都进行过占卜：总体而言，结果是比较乐观的。</Text>
+        </Row>
+
+        <Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_ASTROLOGIST_NAME" Language="zh_Hans_CN">
+            <Text>IESS的特色单位：占星术士</Text>
+        </Row>
+        <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ASTROLOGIST_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>提瓦特大陆上的占星术士们可以通过观测星空和命之座的方式一定程度上“预测未来”。通俗地讲，占星术士们是一群从事天文观测和理论研究的科学家。然而，“预测未来”的原理建立在提瓦特的“虚假之天”这一基础上，如果不在提瓦特大陆上，他们就和现实中的天文学家没有多大区别了。</Text>
+        </Row>
+        <Row Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_ASTRONOMICAL_OBSERVATORIES_NAME" Language="zh_Hans_CN">
+            <Text>IESS的特色区域：占星台</Text>
+        </Row>
+        <Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_ASTRONOMICAL_OBSERVATORIES_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>顾名思义，占星台就是占星术士们从事天文观测和理论研究的观测站。为了更好的视野、减少光学和电磁干扰，这些占星台通常选址在远离城镇的山脉上或荒野中。</Text>
+        </Row>
     </LocalizedText>
 </GameData>
