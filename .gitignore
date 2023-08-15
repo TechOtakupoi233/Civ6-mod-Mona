@@ -1,8 +1,9 @@
 ._*
 .DS_Store
-Cooked/
-cooker.log
-Mods/
-RawAssets/
+*.log
 *.civ6suo
 *.db
+test*
+Cooked/
+Mods/
+RawAssets/

@@ -153,6 +153,30 @@
 			<m_EntryID text="LEADER_MONA_MONDSTANT_NEUTRAL"/>
 			<m_ObjectName text="LEADER_MONA_NEUTRAL"/>
 		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_ASTROLOGIST_22"/>
+			<m_ObjectName text="ICON_UNIT_ASTROLOGIST_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_ASTROLOGIST_256"/>
+			<m_ObjectName text="ICON_UNIT_ASTROLOGIST_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_ASTROLOGIST_32"/>
+			<m_ObjectName text="ICON_UNIT_ASTROLOGIST_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_ASTROLOGIST_38"/>
+			<m_ObjectName text="ICON_UNIT_ASTROLOGIST_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_ASTROLOGIST_50"/>
+			<m_ObjectName text="ICON_UNIT_ASTROLOGIST_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_ASTROLOGIST_80"/>
+			<m_ObjectName text="ICON_UNIT_ASTROLOGIST_80"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

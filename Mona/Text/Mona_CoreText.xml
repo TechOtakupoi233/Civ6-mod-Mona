@@ -6,18 +6,22 @@
         <Row Tag="LOC_CIVILIZATION_IESS_ADJECTIVE" Text="IESS"/>
         <Row Tag="LOC_TARIT_SPACE_ASPIRATION_NAME" Text="Space Aspiration"/>
         <Row Tag="LOC_TARIT_SPACE_ASPIRATION_DESCRIPTION">
-            <Text>Cities' growth speed -30%. Each[ICON_Citizen]Citizen gain 1[ICON_Science]Science, 1[ICON_Culture]Culture and 1 Loyalty.Each building inside Campus and Astronomical research station +1[ICON_Amenities]Amenity.</Text>
+            <Text>Cities' growth speed -30%. Each[ICON_Citizen]Citizen gain 1[ICON_Science]Science, 1[ICON_Culture]Culture and 1 Loyalty.Each building inside Campus +1[ICON_Amenities]Amenity.</Text>
         </Row>
         <Row Tag="LOC_LEADER_MONA_NAME" Text="Astrologist Mona Megistus"/>
         <Row Tag="LOC_LEADER_MONA_IESS_NAME" Text="{LOC_LEADER_MONA_NAME}({LOC_CIVILIZATION_IESS_NAME})"/>
         <Row Tag="LOC_LEADER_MONA_MONDSTANT_NAME" Text="{LOC_LEADER_MONA_NAME}({LOC_CIVILIZATION_MONDSTADT_NAME})"/>
         <Row Tag="LOC_TRAIT_GREAT_ASTROLOGIST_NAME" Text="The Great Astrologist"/>
         <Row Tag="LOC_TRAIT_GREAT_ASTROLOGIST_DESCRIPTION">
-            <Text>Every 5 Turn, 90% of[ICON_Gold]Gold balance will turn into[ICON_Science]Science with a 2:1 ratio.[NEWLINE]Every Technology done researching will return[ICON_Gold]Gold, by one third of [ICON_Science]Science the Technology required. Free Technology "ASTROLOGY" and "NAVI". Has extra initial vision.</Text>
+            <Text>Every 5 Turn, 90% of[ICON_Gold]Gold balance will turn into[ICON_Science]Science with a 2:1 ratio. The civiliazation with highest[ICON_Science]Science(except Mona herself) will receive these[ICON_Gold]Gold. [NEWLINE]Every Technology done researching will return[ICON_Gold]Gold, by one third of [ICON_Science]Science the Technology required. Free Technology "ASTROLOGY" and "NAVI". Has extra initial vision.</Text>
         </Row>
-        <Row Tag="LOC_DISTRICT_ASTRONOMICAL_OBSERVATORIES_NAME" Text="Astronomical Observatories"/>
-        <Row Tag="LOC_DISTRICT_ASTRONOMICAL_OBSERVATORIES_DESCRIPTION">
-            <Text>Mona's Special District, must be built on mountains, can't place adjacent to City Center. Gain massive adjacency bonus if not adjacent to any district(except for Campus).</Text>
+        <Row Tag="LOC_IMPROVEMENT_OPTICAL_STATION_NAME" Text="Optical Obervatory"/>
+        <Row Tag="LOC_IMPROVEMENT_OPTICAL_STATION_DESCRIPTION">
+            <Text>Mona's Unique Improvement. Must be built on mountains. Provide massive adjacent bonus for Campus. +1[ICON_GreatScientist]Great scientist point。</Text>
+        </Row>
+        <Row Tag="LOC_IMPROVEMENT_RADIO_TELESCOPE_NAME" Text="Radio Telescope"/>
+        <Row Tag="LOC_IMPROVEMENT_RADIO_TELESCOPE_DESCRIPTION">
+            <Text>Mona's Unique Improvement. Must be built on flat terrains. Speed up space race projects by 10%.</Text>
         </Row>
         <Row Tag="LOC_UNIT_ASTROLOGIST_NAME" Text="Astrologist"/>
         <Row Tag="LOC_UNIT_ASTROLOGIST_DESCRIPTION">
@@ -30,20 +34,20 @@
         <Row Tag="LOC_CIVILIZATION_IESS_ADJECTIVE" Text="IESS" Language="zh_Hans_CN"/>
         <Row Tag="LOC_TARIT_SPACE_ASPIRATION_NAME" Text="向往星空" Language="zh_Hans_CN"/>
         <Row Tag="LOC_TARIT_SPACE_ASPIRATION_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>城市发展速度-30%。每[ICON_Citizen]人口+1[ICON_Science]科技和[ICON_Culture]文化值，输出的忠诚度+1点。学院和天文科考站区域内的每个建筑+1[ICON_Amenities]宜居度。</Text>
+            <Text>城市发展速度-30%。每[ICON_Citizen]人口+1[ICON_Science]科技和[ICON_Culture]文化值，输出的忠诚度+1点。学院区域内的每个建筑+1[ICON_Amenities]宜居度。</Text>
         </Row>
         <Row Tag="LOC_LEADER_MONA_NAME" Text="阿斯托洛吉斯·莫娜·梅姬斯图斯" Language="zh_Hans_CN"/>
         <Row Tag="LOC_TRAIT_GREAT_ASTROLOGIST_NAME" Text="伟大的占星术士" Language="zh_Hans_CN"/>
         <Row Tag="LOC_TRAIT_GREAT_ASTROLOGIST_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>每5回合，国库[ICON_Gold]金币的90%将按2:1的比例转换为[ICON_Science]科技值。[NEWLINE]每研究完成一个科技，就获得其所消耗的[ICON_Science]科技值三分之一的[ICON_Gold]金币。自动获得“占星术”和“天文导航”科技。游戏开始时获得额外视野。</Text>
+            <Text>每5回合，国库[ICON_Gold]金币的90%将按2:1的比例转换为[ICON_Science]科技值，[ICON_Science]科技值最高的文明(除莫娜自身外)会收到这笔[ICON_Gold]资金。[NEWLINE]每研究完成一个科技，就获得其所消耗的[ICON_Science]科技值三分之一的[ICON_Gold]金币。自动获得“占星术”和“天文导航”科技。游戏开始时获得额外视野。</Text>
         </Row>
-        <Row Tag="LOC_DISTRICT_ASTRONOMICAL_OBSERVATORIES_NAME" Text="占星台" Language="zh_Hans_CN"/>
-        <Row Tag="LOC_DISTRICT_ASTRONOMICAL_OBSERVATORIES_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>莫娜的特色区域，必须修建在山脉上，不能与市中心相邻，不与除学院外任何区域相邻时获得巨量邻接加成。</Text>
+        <Row Tag="LOC_IMPROVEMENT_OPTICAL_STATION_NAME" Text="光学观测站" Language="zh_Hans_CN"/>
+        <Row Tag="LOC_IMPROVEMENT_OPTICAL_STATION_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>莫娜的特色改良设施，必须修建在山脉上，为学院区域提供巨量邻接加成。+1[ICON_GreatScientist]大科学家点数。</Text>
         </Row>
-        <Row Tag="LOC_BUILDING_RADIO_TELESCOPE_NAME" Text="射电天文望远镜" Language="zh_Hans_CN"/>
-        <Row Tag="LOC_BUILDING_RADIO_TELESCOPE_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>+7科技值，[ICON_Power]供电充足时额外+5[ICON_Science]科技值和文化值。为太空竞赛项目加速10%。</Text>
+        <Row Tag="LOC_IMPROVEMENT_RADIO_TELESCOPE_NAME" Text="射电望远镜" Language="zh_Hans_CN"/>
+        <Row Tag="LOC_IMPROVEMENT_RADIO_TELESCOPE_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>莫娜的特色改良设施，必须修建在平坦地形上。为太空竞赛项目加速10%。</Text>
         </Row>
         <Row Tag="LOC_UNIT_ASTROLOGIST_NAME" Text="占星术士" Language="zh_Hans_CN"/>
         <Row Tag="LOC_UNIT_ASTROLOGIST_DESCRIPTION" Language="zh_Hans_CN">

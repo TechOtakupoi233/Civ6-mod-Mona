@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="IMPROVEMENT_OPTICAL_STATION" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_RADIO_TELESCOPE" Kind="KIND_IMPROVEMENT"/>
+	</Types>
+	<Improvements>
+		<Row ImprovementType="IMPROVEMENT_OPTICAL_STATION" Name="LOC_IMPROVEMENT_OPTICAL_STATION_NAME" Description="LOC_IMPROVEMENT_OPTICAL_STATION_DESCRIPTION" Icon="ICON_IMPROVEMENT_OPTICAL_STATION" PlunderType="PLUNDER_SCIENCE" PlunderAmount="50" Buildable="true" PrereqTech="TECH_ASTROLOGY" TraitType="TRAIT_IMPROVEMENT_OPTICAL_STATION" OnePerCity="true"/>
+		<Row ImprovementType="IMPROVEMENT_RADIO_TELESCOPE" Name="LOC_IMPROVEMENT_RADIO_TELESCOPE_NAME" Description="LOC_IMPROVEMENT_RADIO_TELESCOPE_DESCRIPTION" Icon="ICON_IMPROVEMENT_RADIO_TELESCOPE" PlunderType="PLUNDER_SCIENCE" PlunderAmount="50" Buildable="true" PrereqTech="TECH_RADIO" TraitType="TRAIT_IMPROVEMENT_RADIO_TELESCOPE" OnePerCity="true"/>
+	</Improvements>
+	<Improvement_ValidTerrains>
+		<Row ImprovementType="IMPROVEMENT_OPTICAL_STATION" TerrainType="TERRAIN_GRASS_MOUNTAIN"/>
+		<Row ImprovementType="IMPROVEMENT_OPTICAL_STATION" TerrainType="TERRAIN_PLAINS_MOUNTAIN"/>
+		<Row ImprovementType="IMPROVEMENT_OPTICAL_STATION" TerrainType="TERRAIN_TUNDRA_MOUNTAIN"/>
+		<Row ImprovementType="IMPROVEMENT_OPTICAL_STATION" TerrainType="TERRAIN_SNOW_MOUNTAIN"/>
+		<Row ImprovementType="IMPROVEMENT_OPTICAL_STATION" TerrainType="TERRAIN_DESERT_MOUNTAIN"/>
+		<Row ImprovementType="IMPROVEMENT_RADIO_TELESCOPE" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_RADIO_TELESCOPE" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_RADIO_TELESCOPE" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_RADIO_TELESCOPE" TerrainType="TERRAIN_SNOW"/>
+		<Row ImprovementType="IMPROVEMENT_RADIO_TELESCOPE" TerrainType="TERRAIN_DESERT"/>
+	</Improvement_ValidTerrains>
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_OPTICAL_STATION" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_RADIO_TELESCOPE" UnitType="UNIT_BUILDER"/>
+	</Improvement_ValidBuildUnits>
+	<Improvement_YieldChanges>
+		<Row ImprovementType="IMPROVEMENT_RADIO_TELESCOPE" YieldType="YIELD_SCIENCE" YieldChange="3"/>
+		<Row ImprovementType="IMPROVEMENT_RADIO_TELESCOPE" YieldType="YIELD_CULTURE" YieldChange="2"/>
+	</Improvement_YieldChanges>
+	<Adjacency_YieldChanges>
+		<Row ID="Optical_Observatories_Science" Description="LOC_DISTRICT_OPTICAL_OBSERVATORIES_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="3" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_OPTICAL_STATION"/>
+	</Adjacency_YieldChanges>
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_CAMPUS" YieldChangeId="Optical_Observatories_Science"/>
+	</District_Adjacencies>
+	<ImprovementModifiers>
+		<Row ImprovementType="IMPROVEMENT_OPTICAL_STATION" ModifierId="OPTICAL_OBSERVATORIES_GPP_SCIENTIST"/>
+		<Row ImprovementType="IMPROVEMENT_RADIO_TELESCOPE" ModifierId="RADIO_TELESCOPE_SPACEPORT_BONUS"/>
+	</ImprovementModifiers>
+	<Modifiers>
+		<Row ModifierId="OPTICAL_OBSERVATORIES_GPP_SCIENTIST" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_GREAT_PERSON_POINTS"/>
+		<Row ModifierId="RADIO_TELESCOPE_GPP_SCIENTIST" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_GREAT_PERSON_POINTS"/>
+		<Row ModifierId="RADIO_TELESCOPE_SPACEPORT_BONUS" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_SPACE_RACE_PROJECTS_PRODUCTION"/>
+	</Modifiers>
+	<ModifierArguments>
+		<Row ModifierId="OPTICAL_OBSERVATORIES_GPP_SCIENTIST" Name="Amount" Value="1"/>
+		<Row ModifierId="OPTICAL_OBSERVATORIES_GPP_SCIENTIST" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_SCIENTIST"/>
+		<Row ModifierId="RADIO_TELESCOPE_GPP_SCIENTIST" Name="Amount" Value="1"/>
+		<Row ModifierId="RADIO_TELESCOPE_GPP_SCIENTIST" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_SCIENTIST"/>
+		<Row ModifierId="RADIO_TELESCOPE_SPACEPORT_BONUS" Name="Amount" Value="10"/>
+	</ModifierArguments>
+</GameData>

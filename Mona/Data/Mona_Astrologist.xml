@@ -29,7 +29,7 @@
 		<Row Type="ABILITY_RECEIVE_DEFENSIVE_RING_BONUS" Tag="CLASS_NAVAL_RAIDER"/>
 	</TypeTags>
 	<Units>
-		<Row UnitType="UNIT_ASTROLOGIST" Cost="100" Maintenance="2" BaseMoves="2" BaseSightRange="4" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_SUPPORT" PromotionClass="PROMOTION_CLASS_SUPPORT" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_ASTROLOGIST_NAME" Description="LOC_UNIT_ASTROLOGIST_DESCRIPTION" PurchaseYield="YIELD_GOLD" PrereqTech="TECH_ASTROLOGY" TraitType="TRAIT_UNIT_ASTROLOGIST"/>
+		<Row UnitType="UNIT_ASTROLOGIST" Cost="50" Maintenance="2" BaseMoves="2" BaseSightRange="4" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_SUPPORT" PromotionClass="PROMOTION_CLASS_SUPPORT" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_ASTROLOGIST_NAME" Description="LOC_UNIT_ASTROLOGIST_DESCRIPTION" PurchaseYield="YIELD_GOLD" PrereqTech="TECH_ASTROLOGY" TraitType="TRAIT_UNIT_ASTROLOGIST"/>
 	</Units>
 	<UnitReplaces/>
 	<UnitUpgrades/>

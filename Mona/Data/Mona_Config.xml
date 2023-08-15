@@ -24,11 +24,31 @@
 			<Domain>Players:Expansion2_Players</Domain>
 			<CivilizationType>CIVILIZATION_IESS</CivilizationType>
 			<LeaderType>LEADER_MONA</LeaderType>
-			<Type>DISTRICT_ASTRONOMICAL_OBSERVATORIES</Type>
-			<Name>LOC_DISTRICT_ASTRONOMICAL_OBSERVATORIES_NAME</Name>
-			<Description>LOC_DISTRICT_ASTRONOMICAL_OBSERVATORIES_DESCRIPTION</Description>
-			<Icon>ICON_DISTRICT_ASTRONOMICAL_OBSERVATORIES</Icon>
+			<Type>UNIT_ASTROLOGIST</Type>
+			<Name>LOC_UNIT_ASTROLOGIST_NAME</Name>
+			<Description>LOC_UNIT_ASTROLOGIST_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_ASTROLOGIST</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_IESS</CivilizationType>
+			<LeaderType>LEADER_MONA</LeaderType>
+			<Type>IMPROVEMENT_OPTICAL_STATION</Type>
+			<Name>LOC_IMPROVEMENT_OPTICAL_STATION_NAME</Name>
+			<Description>LOC_IMPROVEMENT_OPTICAL_STATION_DESCRIPTION</Description>
+			<Icon>ICON_IMPROVEMENT_OPTICAL_STATION</Icon>
 			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_IESS</CivilizationType>
+			<LeaderType>LEADER_MONA</LeaderType>
+			<Type>IMPROVEMENT_RADIO_TELESCOPE</Type>
+			<Name>LOC_IMPROVEMENT_RADIO_TELESCOPE_NAME</Name>
+			<Description>LOC_IMPROVEMENT_RADIO_TELESCOPE_DESCRIPTION</Description>
+			<Icon>ICON_IMPROVEMENT_RADIO_TELESCOPE</Icon>
+			<SortIndex>21</SortIndex>
 		</Row>
 	</PlayerItems>
 </GameData>

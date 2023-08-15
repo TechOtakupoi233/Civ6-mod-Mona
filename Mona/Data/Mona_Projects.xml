@@ -46,4 +46,10 @@
 		<Row ModifierId="PROJECT_COMPLETION_MODIFIER_LAUNCH_DEEP_SPACE_OBSERAVATORIES_CITIES_SCIENCE" Name="Amount" Value="25"/>
 		<Row ModifierId="PROJECT_COMPLETION_MODIFIER_LAUNCH_DEEP_SPACE_OBSERAVATORIES_CITIES_SCIENCE" Name="YieldType" Value="YIELD_SCIENCE"/>
 	</ModifierArguments>
+	<RequirementSets>
+		<InsertOrIgnore RequirementSetId="REQUIREMENTS_CITY_HAS_BROADCAST_CENTER" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<InsertOrIgnore RequirementSetId="REQUIREMENTS_CITY_HAS_BROADCAST_CENTER" RequirementId="REQUIRES_CITY_HAS_BROADCAST_CENTER"/>
+	</RequirementSetRequirements>
 </GameData>

@@ -62,7 +62,7 @@
             <Text>IESS(星空探索协会)是由一群有志之士聚在阿斯托洛吉斯·莫娜·梅姬斯图斯麾下，一起实现共同目标的组织。IESS的成员来自世界各地，他们的专业领域也不完全相同，但他们要做的事简单来说就是：看天，和上天。</Text>
         </Row>
         <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_IESS_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
-            <Text>莫娜身为占星术的专家，按理来说原本是没必要涉及到宇航学这个门类的。但在机缘巧合之下，她遇到了一群特殊的年轻人：他们的目标不仅局限于看天，而是在着手触摸天空。[NEWLINE]这点燃了莫娜的求知欲。自从知道“虚假之天”这一概念不是空穴来风，她对自己头顶的这片星空就产生了一丝怀疑。[NEWLINE]“虚假之天”是什么？真实的星空是什么样的？莫娜也很想知道。[NEWLINE]而她碰上的这几个年轻人，此刻正手舞足蹈地向这位占星术前辈介绍他们研究的小火箭是怎么冲向天空的。更重要的是，和她一同来到须弥，此刻正站在一旁的旅行者，似乎对这群人也很感兴趣。</Text>
+            <Text>莫娜身为占星术的专家，按理来说原本是没必要涉及到宇航学这个门类的。但在机缘巧合之下，她遇到了一群特殊的年轻人：他们的目标不仅局限于看天，而是在着手触摸天空。[NEWLINE]这点燃了莫娜的求知欲。自从知道“虚假之天”这一概念不是空穴来风，她对自己头顶的这片星空就产生了一丝怀疑。[NEWLINE]“虚假之天”是什么？真实的星空是什么样的？莫娜也很想知道。[NEWLINE]而她碰上的这几个年轻人，此刻正手舞足蹈地向这位占星术前辈介绍他们研究的小火箭是怎么冲向天空的。</Text>
         </Row>
         <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_IESS_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
             <Text>莫娜也对他们产生了浓厚的兴趣，在继续自己的研究之余，也对这群人和跟他们有类似意向的人与团体保持关注。莫娜对这些人都进行过占卜：总体而言，结果是比较乐观的。</Text>
@@ -72,13 +72,19 @@
             <Text>IESS的特色单位：占星术士</Text>
         </Row>
         <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ASTROLOGIST_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-            <Text>提瓦特大陆上的占星术士们可以通过观测星空和命之座的方式一定程度上“预测未来”。通俗地讲，占星术士们是一群从事天文观测和理论研究的科学家。然而，“预测未来”的原理建立在提瓦特的“虚假之天”这一基础上，如果不在提瓦特大陆上，他们就和现实中的天文学家没有多大区别了。</Text>
+            <Text>提瓦特大陆上的占星术士们可以通过观测星空和命之座的方式一定程度上“预测未来”。拿地球上的语言来描述，“占星术士”们是一群从事天文观测和理论研究的科学家。然而，“预测未来”建立在提瓦特的“虚假之天”这一基础上，如果不在提瓦特大陆上，他们就和现实中的天文学家没有多大区别了。</Text>
         </Row>
-        <Row Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_ASTRONOMICAL_OBSERVATORIES_NAME" Language="zh_Hans_CN">
-            <Text>IESS的特色区域：占星台</Text>
+        <Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_OPTICAL_STATION_NAME" Language="zh_Hans_CN">
+            <Text>IESS的特色区域：光学观测站</Text>
         </Row>
-        <Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_ASTRONOMICAL_OBSERVATORIES_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-            <Text>顾名思义，占星台就是占星术士们从事天文观测和理论研究的观测站。为了更好的视野、减少光学和电磁干扰，这些占星台通常选址在远离城镇的山脉上或荒野中。</Text>
+        <Row Tag="LOC_PEDIA_DISTRICTS_PAGE_IMPROVEMENT_OPTICAL_STATION_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>光学观测站就是对天空进行可见光观测的设施。为了更好的视野、避开光污染和电磁干扰，这些观测站台通常选址在远离城镇的山脉上或荒野中。</Text>
+        </Row>
+        <Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_RADIO_TELESCOPE_NAME" Language="zh_Hans_CN">
+            <Text>IESS的特色区域：射电望远镜</Text>
+        </Row>
+        <Row Tag="LOC_PEDIA_DISTRICTS_PAGE_IMPROVEMENT_RADIO_TELESCOPE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+            <Text>射电望远镜将可观测的电磁波频谱扩展到了可见光之外，而且可观测到更远距离的天体。同样的，这些贵重的天线设备也需要建造在原理电磁干扰的地区。</Text>
         </Row>
     </LocalizedText>
 </GameData>

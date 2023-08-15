@@ -472,7 +472,9 @@
 		</Element>
 		<Element>
 			<libraryName text="TileBase"/>
-			<relativePackagePaths/>
+			<relativePackagePaths>
+				<Element text="landmarks/tilebases"/>
+			</relativePackagePaths>
 		</Element>
 		<Element>
 			<libraryName text="UILensAsset"/>
